@@ -8,7 +8,7 @@ def sb(rbalance):
     with open('rbalance.txt', 'w') as file:
         file.write(str(rbalance))
 spin = 0
-cb = lb()
+currentbalance = lb()
 action = 1
 print('Welcome to Roulette! Please answer yes or no to questions of that nature, and please answer multiple choice questions exactly\n')
 rules = input('Would you like to know the rules?\n')
@@ -50,6 +50,10 @@ while p == True:
         OddEven  = False
         Colours = False
         HighLow = False
+        Single = False
+        Double = False
+        FourWay = False
+        SixWay = False
         betsection = int(input('How many types of bets would you like to make? (max 2) \n'))
         if betsection == 1:
             bettype = input('What type of bet would you like to make? Number or Sectional?\n')
@@ -327,5 +331,296 @@ while p == True:
         if sectionalbettypecounter == sectionalbettype:
             if allbettypes == True:
                 action = 5
+            else:
+                action = 6
+
+
+    if action == 5:
+        print('You are on the number type bet')
+        numberpayout = input('Would you like to know the payouts for the different types of number bets?\n')
+        if numberpayout.lower() == 'yes':
+            print('Single number: 36:1, 2 way split: 18:1, 4 way corner: 9:1, 6 way double row: 6:1')
+        numberbettype = int(input('How many bet types would you like to make here? (max 4)\n'))
+        if numberbettype > 0 and numberbettype <= 4:
+            numberbettypecounter = 0
+            action = 51
+        else:
+            print('Your answer must be in a range from 1-4')
+
+    if action == 51:
+        if numberbettypecounter < numberbettype:
+            numberbetquestion = input('Which bet would you like to make? Single, 2 Way, 4 Way, or 6 Way?\n')
+            if numberbetquestion.lower() == 'single':
+                if Single == True:
+                    print('You already made a bet here')
+                else:
+                    Single0 = False
+                    Single1 = False
+                    Single2 = False
+                    Single3 = False
+                    Single4 = False
+                    Single5 = False
+                    Single6 = False
+                    Single7 = False
+                    Single8 = False
+                    Single9 = False
+                    Single10 = False
+                    Single11 = False
+                    Single12 = False
+                    Single13 = False
+                    Single14 = False
+                    Single15 = False
+                    Single16 = False
+                    Single17 = False
+                    Single18 = False
+                    Single19 = False
+                    Single20 = False
+                    Single21 = False
+                    Single22 = False
+                    Single23 = False
+                    Single24 = False
+                    Single25 = False
+                    Single26 = False
+                    Single27 = False
+                    Single28 = False
+                    Single29 = False
+                    Single30 = False
+                    Single31 = False
+                    Single32 = False
+                    Single33 = False
+                    Single34 = False
+                    Single35 = False
+                    Single36 = False
+                    Singlebet = 0
+                    Singletype = input('From 0-36, on which number would you like to place a bet on?\n')
+                    if Singletype == '0':
+                        Singlebet = int(input('How much would you like to bet?'))
+                        Single = True
+                        Single0 = True
+                        print('Your bet has been placed')
+                        numberbettypecounter += 1
+                    elif Singletype == '1':
+                        Singlebet = int(input('How much would you like to bet?'))
+                        Single = True
+                        Single1 = True
+                        print('Your bet has been placed')
+                        numberbettypecounter += 1
+                    elif Singletype == '2':
+                        Singlebet = int(input('How much would you like to bet?'))
+                        Single = True
+                        Single2 = True
+                        print('Your bet has been placed')
+                        numberbettypecounter += 1
+                    elif Singletype == '3':
+                        Singlebet = int(input('How much would you like to bet?'))
+                        Single = True
+                        Single3 = True
+                        print('Your bet has been placed')
+                        numberbettypecounter += 1
+                    elif Singletype == '4':
+                        Singlebet = int(input('How much would you like to bet?'))
+                        Single = True
+                        Single4 = True
+                        print('Your bet has been placed')
+                        numberbettypecounter += 1
+                    elif Singletype == '5':
+                        Singlebet = int(input('How much would you like to bet?'))
+                        Single = True
+                        Single5 = True
+                        print('Your bet has been placed')
+                        numberbettypecounter += 1
+                    elif Singletype == '6':
+                        Singlebet = int(input('How much would you like to bet?'))
+                        Single = True
+                        Single6 = True
+                        print('Your bet has been placed')
+                        numberbettypecounter += 1
+                    elif Singletype == '7':
+                        Singlebet = int(input('How much would you like to bet?'))
+                        Single = True
+                        Single7 = True
+                        print('Your bet has been placed')
+                        numberbettypecounter += 1
+                    elif Singletype == '8':
+                        Singlebet = int(input('How much would you like to bet?'))
+                        Single = True
+                        Single8 = True
+                        print('Your bet has been placed')
+                        numberbettypecounter += 1
+                    elif Singletype == '9':
+                        Singlebet = int(input('How much would you like to bet?'))
+                        Single = True
+                        Single9 = True
+                        print('Your bet has been placed')
+                        numberbettypecounter += 1
+                    elif Singletype == '10':
+                        Singlebet = int(input('How much would you like to bet?'))
+                        Single = True
+                        Single10 = True
+                        print('Your bet has been placed')
+                        numberbettypecounter += 1
+                    elif Singletype == '11':
+                        Singlebet = int(input('How much would you like to bet?'))
+                        Single = True
+                        Single11 = True
+                        print('Your bet has been placed')
+                        numberbettypecounter += 1
+                    elif Singletype == '12':
+                        Singlebet = int(input('How much would you like to bet?'))
+                        Single = True
+                        Single12 = True
+                        print('Your bet has been placed')
+                        numberbettypecounter += 1
+                    elif Singletype == '13':
+                        Singlebet = int(input('How much would you like to bet?'))
+                        Single = True
+                        Single13 = True
+                        print('Your bet has been placed')
+                        numberbettypecounter += 1
+                    elif Singletype == '14':
+                        Singlebet = int(input('How much would you like to bet?'))
+                        Single = True
+                        Single14 = True
+                        print('Your bet has been placed')
+                        numberbettypecounter += 1
+                    elif Singletype == '15':
+                        Singlebet = int(input('How much would you like to bet?'))
+                        Single = True
+                        Single15 = True
+                        print('Your bet has been placed')
+                        numberbettypecounter += 1
+                    elif Singletype == '16':
+                        Singlebet = int(input('How much would you like to bet?'))
+                        Single = True
+                        Single16 = True
+                        print('Your bet has been placed')
+                        numberbettypecounter += 1
+                    elif Singletype == '17':
+                        Singlebet = int(input('How much would you like to bet?'))
+                        Single = True
+                        Single17 = True
+                        print('Your bet has been placed')
+                        numberbettypecounter += 1
+                    elif Singletype == '18':
+                        Singlebet = int(input('How much would you like to bet?'))
+                        Single = True
+                        Single18 = True
+                        print('Your bet has been placed')
+                        numberbettypecounter += 1
+                    elif Singletype == '19':
+                        Singlebet = int(input('How much would you like to bet?'))
+                        Single = True
+                        Single19 = True
+                        print('Your bet has been placed')
+                        numberbettypecounter += 1
+                    elif Singletype == '20':
+                        Singlebet = int(input('How much would you like to bet?'))
+                        Single = True
+                        Single20 = True
+                        print('Your bet has been placed')
+                        numberbettypecounter += 1
+                    elif Singletype == '21':
+                        Singlebet = int(input('How much would you like to bet?'))
+                        Single = True
+                        Single21 = True
+                        print('Your bet has been placed')
+                        numberbettypecounter += 1
+                    elif Singletype == '22':
+                        Singlebet = int(input('How much would you like to bet?'))
+                        Single = True
+                        Single22 = True
+                        print('Your bet has been placed')
+                        numberbettypecounter += 1
+                    elif Singletype == '23':
+                        Singlebet = int(input('How much would you like to bet?'))
+                        Single = True
+                        Single23 = True
+                        print('Your bet has been placed')
+                        numberbettypecounter += 1
+                    elif Singletype == '24':
+                        Singlebet = int(input('How much would you like to bet?'))
+                        Single = True
+                        Single24 = True
+                        print('Your bet has been placed')
+                        numberbettypecounter += 1
+                    elif Singletype == '25':
+                        Singlebet = int(input('How much would you like to bet?'))
+                        Single = True
+                        Single25 = True
+                        print('Your bet has been placed')
+                        numberbettypecounter += 1
+                    elif Singletype == '26':
+                        Singlebet = int(input('How much would you like to bet?'))
+                        Single = True
+                        Single26 = True
+                        print('Your bet has been placed')
+                        numberbettypecounter += 1
+                    elif Singletype == '27':
+                        Singlebet = int(input('How much would you like to bet?'))
+                        Single = True
+                        Single27 = True
+                        print('Your bet has been placed')
+                        numberbettypecounter += 1
+                    elif Singletype == '28':
+                        Singlebet = int(input('How much would you like to bet?'))
+                        Single = True
+                        Single28 = True
+                        print('Your bet has been placed')
+                        numberbettypecounter += 1
+                    elif Singletype == '29':
+                        Singlebet = int(input('How much would you like to bet?'))
+                        Single = True
+                        Single29 = True
+                        print('Your bet has been placed')
+                        numberbettypecounter += 1
+                    elif Singletype == '30':
+                        Singlebet = int(input('How much would you like to bet?'))
+                        Single = True
+                        Single30 = True
+                        print('Your bet has been placed')
+                        numberbettypecounter += 1
+                    elif Singletype == '31':
+                        Singlebet = int(input('How much would you like to bet?'))
+                        Single = True
+                        Single31 = True
+                        print('Your bet has been placed')
+                        numberbettypecounter += 1
+                    elif Singletype == '32':
+                        Singlebet = int(input('How much would you like to bet?'))
+                        Single = True
+                        Single32 = True
+                        print('Your bet has been placed')
+                        numberbettypecounter += 1
+                    elif Singletype == '33':
+                        Singlebet = int(input('How much would you like to bet?'))
+                        Single = True
+                        Single33 = True
+                        print('Your bet has been placed')
+                        numberbettypecounter += 1
+                    elif Singletype == '34':
+                        Singlebet = int(input('How much would you like to bet?'))
+                        Single = True
+                        Single34 = True
+                        print('Your bet has been placed')
+                        numberbettypecounter += 1
+                    elif Singletype == '35':
+                        Singlebet = int(input('How much would you like to bet?'))
+                        Single = True
+                        Single35 = True
+                        print('Your bet has been placed')
+                        numberbettypecounter += 1
+                    elif Singletype == '36':
+                        Singlebet = int(input('How much would you like to bet?'))
+                        Single = True
+                        Single36 = True
+                        print('Your bet has been placed')
+                        numberbettypecounter += 1
+                    else:
+                        print('Your answer must be a number from 0-36')
+
+
+
+
+
 
 
