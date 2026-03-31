@@ -623,6 +623,67 @@ while p == True:
                 if Double == True:
                     print('You already made a bet here')
                 else:
+                    Vertical1 = False
+                    Vertical2 = False
+                    Vertical3 = False
+                    Vertical4 = False
+                    Vertical5 = False
+                    Vertical6 = False
+                    Vertical7 = False
+                    Vertical8 = False
+                    Vertical9 = False
+                    Vertical10 = False
+                    Vertical11 = False
+                    Vertical12 = False
+                    Vertical13 = False
+                    Vertical14 = False
+                    Vertical15 = False
+                    Vertical16 = False
+                    Vertical17 = False
+                    Vertical18 = False
+                    Vertical19 = False
+                    Vertical20 = False
+                    Vertical21 = False
+                    Vertical22 = False
+                    Vertical23 = False
+                    Vertical24 = False
+                    Vertical25 = False
+                    Vertical26 = False
+                    Vertical27 = False
+                    Vertical28 = False
+                    Vertical29 = False
+                    Vertical30 = False
+                    Vertical31 = False
+                    Vertical32 = False
+                    Vertical33 = False
+                    Vertical34 = False
+                    Vertical35 = False
+                    Vertical36 = False
+                    Horizontal1 = False
+                    Horizontal2 = False
+                    Horizontal3 = False
+                    Horizontal4 = False
+                    Horizontal5 = False
+                    Horizontal6 = False
+                    Horizontal7 = False
+                    Horizontal8 = False
+                    Horizontal9 = False
+                    Horizontal10 = False
+                    Horizontal11 = False
+                    Horizontal12 = False
+                    Horizontal13 = False
+                    Horizontal14 = False
+                    Horizontal15 = False
+                    Horizontal16 = False
+                    Horizontal17 = False
+                    Horizontal18 = False
+                    Horizontal19 = False
+                    Horizontal20 = False
+                    Horizontal21 = False
+                    Horizontal22 = False
+                    Horizontal23 = False
+                    Horizontal24 = False
+                    Doublebet = 0
                     Doubletype = input('Is your 2 way bet vertical or horizontal?\n')
                     if Doubletype.lower() == 'vertical':
                         DoubleVertical = input('On which 2 way would you like to make a bet on?\n'
@@ -1002,8 +1063,172 @@ while p == True:
                             print('1&2, 2&3, 4&5, 5&6, 7&8, 8&9, 10&11, 11&12, 13&14, 14&15, 16&17, 17&18, 19&20, 20&21')
                             print('22&23, 23&24, 25&26, 26&27, 28&29, 29&30, 31&32, 32&33, 34&35, 35&36')
 
+                    else:
+                        print('Your answer must be vertical or horizontal')
 
-
-
-
-
+            if numberbetquestion.lower() == '4 way':
+                if FourWay == True:
+                    print('You already made a bet here.')
+                else:
+                    FourWay1 = False
+                    FourWay2 = False
+                    FourWay3 = False
+                    FourWay4 = False
+                    FourWay5 = False
+                    FourWay6 = False
+                    FourWay7 = False
+                    FourWay8 = False
+                    FourWay9 = False
+                    FourWay10 = False
+                    FourWay11 = False
+                    FourWay12 = False
+                    FourWay13 = False
+                    FourWay14 = False
+                    FourWay15 = False
+                    FourWay16 = False
+                    FourWay17 = False
+                    FourWay18 = False
+                    FourWay19 = False
+                    FourWay20 = False
+                    FourWay21 = False
+                    FourWay22 = False
+                    FourWaybet = 0
+                    Fourbettype = input('Where would you like to make a bet? Your options are:\n'
+                                        '1,2,4,5    2,3,5,6    4,5,7,8    5,6,8,9    7,8,10,11    8,9,11,12    10,11,13,14    11,12,14,15    13,14,16,17    14,15,17,18   16,17,19,20    17,18,20,21\n'
+                                        '19,20,22,23    20,21,23,24    22,23,25,26    23,24,26,27    25,26,28,29    26,27,29,30    28,29,31,32    29,30,32,33    31,32,34,35    32,33,35,36\n')
+                    if Fourbettype == '1,2,4,5':
+                        FourWaybet = int(input('How much would you like to bet?'))
+                        FourWay = True
+                        FourWay1 = True
+                        print('Your bet has been placed.')
+                        numberbettypecounter += 1
+                    elif Fourbettype == '2,3,5,6':
+                        FourWaybet = int(input('How much would you like to bet?'))
+                        FourWay = True
+                        FourWay2 = True
+                        print('Your bet has been placed.')
+                        numberbettypecounter += 1
+                    elif Fourbettype == '4,5,7,8':
+                        FourWaybet = int(input('How much would you like to bet?'))
+                        FourWay = True
+                        FourWay3 = True
+                        print('Your bet has been placed.')
+                        numberbettypecounter += 1
+                    elif Fourbettype == '5,6,8,9':
+                        FourWaybet = int(input('How much would you like to bet?'))
+                        FourWay = True
+                        FourWay4 = True
+                        print('Your bet has been placed.')
+                        numberbettypecounter += 1
+                    elif Fourbettype == '7,8,10,11':
+                        FourWaybet = int(input('How much would you like to bet?'))
+                        FourWay = True
+                        FourWay5 = True
+                        print('Your bet has been placed.')
+                        numberbettypecounter += 1
+                    elif Fourbettype == '8,9,11,12':
+                        FourWaybet = int(input('How much would you like to bet?'))
+                        FourWay = True
+                        FourWay6 = True
+                        print('Your bet has been placed.')
+                        numberbettypecounter += 1
+                    elif Fourbettype == '10,11,13,14':
+                        FourWaybet = int(input('How much would you like to bet?'))
+                        FourWay = True
+                        FourWay7 = True
+                        print('Your bet has been placed.')
+                        numberbettypecounter += 1
+                    elif Fourbettype == '11,12,14,15':
+                        FourWaybet = int(input('How much would you like to bet?'))
+                        FourWay = True
+                        FourWay8 = True
+                        print('Your bet has been placed.')
+                        numberbettypecounter += 1
+                    elif Fourbettype == '13,14,16,17':
+                        FourWaybet = int(input('How much would you like to bet?'))
+                        FourWay = True
+                        FourWay9 = True
+                        print('Your bet has been placed.')
+                        numberbettypecounter += 1
+                    elif Fourbettype == '14,15,17,18':
+                        FourWaybet = int(input('How much would you like to bet?'))
+                        FourWay = True
+                        FourWay10 = True
+                        print('Your bet has been placed.')
+                        numberbettypecounter += 1
+                    elif Fourbettype == '16,17,19,20':
+                        FourWaybet = int(input('How much would you like to bet?'))
+                        FourWay = True
+                        FourWay11 = True
+                        print('Your bet has been placed.')
+                        numberbettypecounter += 1
+                    elif Fourbettype == '17,18,20,21':
+                        FourWaybet = int(input('How much would you like to bet?'))
+                        FourWay = True
+                        FourWay12 = True
+                        print('Your bet has been placed.')
+                        numberbettypecounter += 1
+                    elif Fourbettype == '19,20,22,23':
+                        FourWaybet = int(input('How much would you like to bet?'))
+                        FourWay = True
+                        FourWay13 = True
+                        print('Your bet has been placed.')
+                        numberbettypecounter += 1
+                    elif Fourbettype == '20,21,23,24':
+                        FourWaybet = int(input('How much would you like to bet?'))
+                        FourWay = True
+                        FourWay14 = True
+                        print('Your bet has been placed.')
+                        numberbettypecounter += 1
+                    elif Fourbettype == '22,23,25,26':
+                        FourWaybet = int(input('How much would you like to bet?'))
+                        FourWay = True
+                        FourWay15 = True
+                        print('Your bet has been placed.')
+                        numberbettypecounter += 1
+                    elif Fourbettype == '23,24,26,27':
+                        FourWaybet = int(input('How much would you like to bet?'))
+                        FourWay = True
+                        FourWay16 = True
+                        print('Your bet has been placed.')
+                        numberbettypecounter += 1
+                    elif Fourbettype == '25,26,28,29':
+                        FourWaybet = int(input('How much would you like to bet?'))
+                        FourWay = True
+                        FourWay17 = True
+                        print('Your bet has been placed.')
+                        numberbettypecounter += 1
+                    elif Fourbettype == '26,27,29,30':
+                        FourWaybet = int(input('How much would you like to bet?'))
+                        FourWay = True
+                        FourWay18 = True
+                        print('Your bet has been placed.')
+                        numberbettypecounter += 1
+                    elif Fourbettype == '28,29,31,32':
+                        FourWaybet = int(input('How much would you like to bet?'))
+                        FourWay = True
+                        FourWay19 = True
+                        print('Your bet has been placed.')
+                        numberbettypecounter += 1
+                    elif Fourbettype == '29,30,32,33':
+                        FourWaybet = int(input('How much would you like to bet?'))
+                        FourWay = True
+                        FourWay20 = True
+                        print('Your bet has been placed.')
+                        numberbettypecounter += 1
+                    elif Fourbettype == '31,32,34,35':
+                        FourWaybet = int(input('How much would you like to bet?'))
+                        FourWay = True
+                        FourWay21 = True
+                        print('Your bet has been placed.')
+                        numberbettypecounter += 1
+                    elif Fourbettype == '32,33,35,36':
+                        FourWaybet = int(input('How much would you like to bet?'))
+                        FourWay = True
+                        FourWay22 = True
+                        print('Your bet has been placed.')
+                        numberbettypecounter += 1
+                    else:
+                        print('Your answer must be from:')
+                        print('1,2,4,5    2,3,5,6    4,5,7,8    5,6,8,9    7,8,10,11    8,9,11,12    10,11,13,14    11,12,14,15    13,14,16,17    14,15,17,18   16,17,19,20    17,18,20,21')
+                        print('19,20,22,23    20,21,23,24    22,23,25,26    23,24,26,27    25,26,28,29    26,27,29,30    28,29,31,32    29,30,32,33    31,32,34,35    32,33,35,36')
