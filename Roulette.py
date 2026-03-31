@@ -845,9 +845,162 @@ while p == True:
                             print('Your bet has been placed')
                             numberbettypecounter += 1
                         else:
-                            print('You answer must be from the following:')
+                            print('Your answer must be from the following:')
                             print('0&1, 0&2, 0&3, 1&4, 2&5, 3&6, 4&7, 5&8, 6&9, 7&10, 8&11, 9&12, 10&13, 11&14, 12&15, 13&16, 14&17, 15&18, 16&19, 17&20, 18&21')
                             print('19&22, 20&23, 21&24, 22&25, 23&26, 24&27, 25&28, 26&29, 27&30, 28&31, 29&32, 30&33, 31&34, 32&35, 33&36')
+
+                    elif Doubletype.lower() == 'horizontal':
+                        DoubleHorizontal = input('On which 2 way would you like to bet on?\n'
+                                                 '1&2, 2&3, 4&5, 5&6, 7&8, 8&9, 10&11, 11&12, 13&14, 14&15, 16&17, 17&18, 19&20, 20&21\n'
+                                                 '22&23, 23&24, 25&26, 26&27, 28&29, 29&30, 31&32, 32&33, 34&35, 35&36\n')
+                        if DoubleHorizontal == '1&2':
+                            Doublebet = int(input('How much would you like to bet?\n'))
+                            Double = True
+                            Horizontal1 = True
+                            print('Your bet has been placed')
+                            numberbettypecounter += 1
+                        elif DoubleHorizontal == '2&3':
+                            Doublebet = int(input('How much would you like to bet?\n'))
+                            Double = True
+                            Horizontal2 = True
+                            print('Your bet has been placed')
+                            numberbettypecounter += 1
+                        elif DoubleHorizontal == '4&5':
+                            Doublebet = int(input('How much would you like to bet?\n'))
+                            Double = True
+                            Horizontal3 = True
+                            print('Your bet has been placed')
+                            numberbettypecounter += 1
+                        elif DoubleHorizontal == '5&6':
+                            Doublebet = int(input('How much would you like to bet?\n'))
+                            Double = True
+                            Horizontal4 = True
+                            print('Your bet has been placed')
+                            numberbettypecounter += 1
+                        elif DoubleHorizontal == '7&8':
+                            Doublebet = int(input('How much would you like to bet?\n'))
+                            Double = True
+                            Horizontal5 = True
+                            print('Your bet has been placed')
+                            numberbettypecounter += 1
+                        elif DoubleHorizontal == '8&9':
+                            Doublebet = int(input('How much would you like to bet?\n'))
+                            Double = True
+                            Horizontal6 = True
+                            print('Your bet has been placed')
+                            numberbettypecounter += 1
+                        elif DoubleHorizontal == '10&11':
+                            Doublebet = int(input('How much would you like to bet?\n'))
+                            Double = True
+                            Horizontal7 = True
+                            print('Your bet has been placed')
+                            numberbettypecounter += 1
+                        elif DoubleHorizontal == '11&12':
+                            Doublebet = int(input('How much would you like to bet?\n'))
+                            Double = True
+                            Horizontal8 = True
+                            print('Your bet has been placed')
+                            numberbettypecounter += 1
+                        elif DoubleHorizontal == '13&14':
+                            Doublebet = int(input('How much would you like to bet?\n'))
+                            Double = True
+                            Horizontal9 = True
+                            print('Your bet has been placed')
+                            numberbettypecounter += 1
+                        elif DoubleHorizontal == '14&15':
+                            Doublebet = int(input('How much would you like to bet?\n'))
+                            Double = True
+                            Horizontal10 = True
+                            print('Your bet has been placed')
+                            numberbettypecounter += 1
+                        elif DoubleHorizontal == '16&17':
+                            Doublebet = int(input('How much would you like to bet?\n'))
+                            Double = True
+                            Horizontal11 = True
+                            print('Your bet has been placed')
+                            numberbettypecounter += 1
+                        elif DoubleHorizontal == '17&18':
+                            Doublebet = int(input('How much would you like to bet?\n'))
+                            Double = True
+                            Horizontal12 = True
+                            print('Your bet has been placed')
+                            numberbettypecounter += 1
+                        elif DoubleHorizontal == '19&20':
+                            Doublebet = int(input('How much would you like to bet?\n'))
+                            Double = True
+                            Horizontal13 = True
+                            print('Your bet has been placed')
+                            numberbettypecounter += 1
+                        elif DoubleHorizontal == '20&21':
+                            Doublebet = int(input('How much would you like to bet?\n'))
+                            Double = True
+                            Horizontal14 = True
+                            print('Your bet has been placed')
+                            numberbettypecounter += 1
+                        elif DoubleHorizontal == '22&23':
+                            Doublebet = int(input('How much would you like to bet?\n'))
+                            Double = True
+                            Horizontal15 = True
+                            print('Your bet has been placed')
+                            numberbettypecounter += 1
+                        elif DoubleHorizontal == '23&24':
+                            Doublebet = int(input('How much would you like to bet?\n'))
+                            Double = True
+                            Horizontal16 = True
+                            print('Your bet has been placed')
+                            numberbettypecounter += 1
+                        elif DoubleHorizontal == '25&26':
+                            Doublebet = int(input('How much would you like to bet?\n'))
+                            Double = True
+                            Horizontal17 = True
+                            print('Your bet has been placed')
+                            numberbettypecounter += 1
+                        elif DoubleHorizontal == '26&27':
+                            Doublebet = int(input('How much would you like to bet?\n'))
+                            Double = True
+                            Horizontal18 = True
+                            print('Your bet has been placed')
+                            numberbettypecounter += 1
+                        elif DoubleHorizontal == '28&29':
+                            Doublebet = int(input('How much would you like to bet?\n'))
+                            Double = True
+                            Horizontal19 = True
+                            print('Your bet has been placed')
+                            numberbettypecounter += 1
+                        elif DoubleHorizontal == '29&30':
+                            Doublebet = int(input('How much would you like to bet?\n'))
+                            Double = True
+                            Horizontal20 = True
+                            print('Your bet has been placed')
+                            numberbettypecounter += 1
+                        elif DoubleHorizontal == '31&32':
+                            Doublebet = int(input('How much would you like to bet?\n'))
+                            Double = True
+                            Horizontal21 = True
+                            print('Your bet has been placed')
+                            numberbettypecounter += 1
+                        elif DoubleHorizontal == '32&33':
+                            Doublebet = int(input('How much would you like to bet?\n'))
+                            Double = True
+                            Horizontal22 = True
+                            print('Your bet has been placed')
+                            numberbettypecounter += 1
+                        elif DoubleHorizontal == '34&35':
+                            Doublebet = int(input('How much would you like to bet?\n'))
+                            Double = True
+                            Horizontal23 = True
+                            print('Your bet has been placed')
+                            numberbettypecounter += 1
+                        elif DoubleHorizontal == '35&36':
+                            Doublebet = int(input('How much would you like to bet?\n'))
+                            Double = True
+                            Horizontal24 = True
+                            print('Your bet has been placed')
+                            numberbettypecounter += 1
+                        else:
+                            print('Your answer must be from:')
+                            print('1&2, 2&3, 4&5, 5&6, 7&8, 8&9, 10&11, 11&12, 13&14, 14&15, 16&17, 17&18, 19&20, 20&21')
+                            print('22&23, 23&24, 25&26, 26&27, 28&29, 29&30, 31&32, 32&33, 34&35, 35&36')
 
 
 
