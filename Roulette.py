@@ -300,3 +300,31 @@ while p == True:
                         print('Your answer must be red or black.')
                         sectionalbettypecounter -= 1
 
+
+            if sectionalbetquestion.lower() == 'high/low':
+                if HighLow == True:
+                    print('You already made a bet here')
+                    sectionalbettypecounter -= 1
+                else:
+                    High = False
+                    Low = False
+                    HighLowbet = 0
+                    HighLowtype = input('Would you like to bet on Low or High? Low is 1-18, High is 19-36\n')
+                    if HighLowtype.lower() == 'low':
+                        HighLowbet = int(input('How much would you like to bet?\n'))
+                        HighLow = True
+                        Low = True
+                        print('Your bet has been placed')
+                    if HighLowtype.lower() == 'high':
+                        HighLowbet = int(input('How much would you like to bet?\n'))
+                        HighLow = True
+                        High = True
+                        print('Your bet has been placed')
+                    if HighLowtype.lower() != 'low' and 'high':
+                        print('Your answer must be low or high.')
+                        sectionalbettypecounter -= 1
+
+
+            if sectionalbetquestion.lower() != 'rows' and 'columns' and 'thirds' and 'odd/even' and 'red/black' and 'high/low':
+                print('Your answer must be one of the following: Rows, Columns, Thirds, Odd/Even, Red/Black, or High/Low')
+                sectionalbettypecounter -= 1
