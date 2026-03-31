@@ -619,7 +619,7 @@ while p == True:
                         print('Your answer must be a number from 0-36')
 
 
-            if numberbetquestion.lower() == '2 way':
+            elif numberbetquestion.lower() == '2 way':
                 if Double == True:
                     print('You already made a bet here')
                 else:
@@ -1066,7 +1066,8 @@ while p == True:
                     else:
                         print('Your answer must be vertical or horizontal')
 
-            if numberbetquestion.lower() == '4 way':
+
+            elif numberbetquestion.lower() == '4 way':
                 if FourWay == True:
                     print('You already made a bet here.')
                 else:
@@ -1232,3 +1233,96 @@ while p == True:
                         print('Your answer must be from:')
                         print('1,2,4,5    2,3,5,6    4,5,7,8    5,6,8,9    7,8,10,11    8,9,11,12    10,11,13,14    11,12,14,15    13,14,16,17    14,15,17,18   16,17,19,20    17,18,20,21')
                         print('19,20,22,23    20,21,23,24    22,23,25,26    23,24,26,27    25,26,28,29    26,27,29,30    28,29,31,32    29,30,32,33    31,32,34,35    32,33,35,36')
+
+
+            elif numberbetquestion.lower() == '6 way':
+                if SixWay == True:
+                    print('You already made a bet here')
+                else:
+                    SixWay1 = False
+                    SixWay2 = False
+                    SixWay3 = False
+                    SixWay4 = False
+                    SixWay5 = False
+                    SixWay6 = False
+                    SixWay7 = False
+                    SixWay8 = False
+                    SixWay9 = False
+                    SixWay10 = False
+                    SixWay11 = False
+                    SixWaybet = 0
+                    SixWaytype = input('What would you like to bet on? 1-6, 4-9, 7-12, 10-15, 13-18, 16-21, 19-24, 22-27, 25-30, 28-33, 31-36\n')
+                    if SixWaytype == '1-6':
+                        SixWaybet = int(input('How much would you like to bet?\n'))
+                        SixWay = True
+                        SixWay1 = True
+                        print('Your bet has been placed.')
+                        numberbettypecounter += 1
+                    elif SixWaytype == '4-9':
+                        SixWaybet = int(input('How much would you like to bet?\n'))
+                        SixWay = True
+                        SixWay2 = True
+                        print('Your bet has been placed.')
+                        numberbettypecounter += 1
+                    elif SixWaytype == '7-12':
+                        SixWaybet = int(input('How much would you like to bet?\n'))
+                        SixWay = True
+                        SixWay3 = True
+                        print('Your bet has been placed.')
+                        numberbettypecounter += 1
+                    elif SixWaytype == '10-15':
+                        SixWaybet = int(input('How much would you like to bet?\n'))
+                        SixWay = True
+                        SixWay4 = True
+                        print('Your bet has been placed.')
+                        numberbettypecounter += 1
+                    elif SixWaytype == '13-18':
+                        SixWaybet = int(input('How much would you like to bet?\n'))
+                        SixWay = True
+                        SixWay5 = True
+                        print('Your bet has been placed.')
+                        numberbettypecounter += 1
+                    elif SixWaytype == '16-21':
+                        SixWaybet = int(input('How much would you like to bet?\n'))
+                        SixWay = True
+                        SixWay6 = True
+                        print('Your bet has been placed.')
+                        numberbettypecounter += 1
+                    elif SixWaytype == '19-24':
+                        SixWaybet = int(input('How much would you like to bet?\n'))
+                        SixWay = True
+                        SixWay7 = True
+                        print('Your bet has been placed.')
+                        numberbettypecounter += 1
+                    elif SixWaytype == '22-27':
+                        SixWaybet = int(input('How much would you like to bet?\n'))
+                        SixWay = True
+                        SixWay8 = True
+                        print('Your bet has been placed.')
+                        numberbettypecounter += 1
+                    elif SixWaytype == '25-30':
+                        SixWaybet = int(input('How much would you like to bet?\n'))
+                        SixWay = True
+                        SixWay9 = True
+                        print('Your bet has been placed.')
+                        numberbettypecounter += 1
+                    elif SixWaytype == '28-33':
+                        SixWaybet = int(input('How much would you like to bet?\n'))
+                        SixWay = True
+                        SixWay10 = True
+                        print('Your bet has been placed.')
+                        numberbettypecounter += 1
+                    elif SixWaytype == '31-36':
+                        SixWaybet = int(input('How much would you like to bet?\n'))
+                        SixWay = True
+                        SixWay11 = True
+                        print('Your bet has been placed.')
+                        numberbettypecounter += 1
+                    else:
+                        print('Your answer must be from: 1-6, 4-9, 7-12, 10-15, 13-18, 16-21, 19-24, 22-27, 25-30, 28-33, 31-36')
+
+
+            else:
+                print('Your answer must be Single, 2 way, 4 way, or 6 way')
+
+
