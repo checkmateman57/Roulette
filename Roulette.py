@@ -81,7 +81,7 @@ while p == True:
     if action == 41:
         while sectionalbettypecounter != sectionalbettype:
             sectionalbetquestion = input(" Which bet would you like to make? Rows, Columns, Thirds, Odd/Even, Red/Black, or High/Low?\n")
-            sectionalbettypecounter = sectionalbettypecounter + 1
+            sectionalbettypecounter += 1
             if sectionalbetquestion.lower() == 'rows':
                 if Rows == True:
                     print('You already made a bet here')
@@ -107,79 +107,79 @@ while p == True:
                         Rowbet = int(input('How much would you like to bet?\n'))
                         Rows = True
                         Row1 = True
-                        print('your bet has been placed')
+                        print('Your bet has been placed')
 
                     if Rowstype == '1-3':
                         Rowbet = int(input('How much would you like to bet?\n'))
                         Rows = True
                         Row2 = True
-                        print('your bet has been placed')
+                        print('Your bet has been placed')
 
                     if Rowstype == '4-6':
                         Rowbet = int(input('How much would you like to bet?\n'))
                         Rows = True
                         Row3 = True
-                        print('your bet has been placed')
+                        print('Your bet has been placed')
 
                     if Rowstype == '7-9':
                         Rowbet = int(input('How much would you like to bet?\n'))
                         Rows = True
                         Row4 = True
-                        print('your bet has been placed')
+                        print('Your bet has been placed')
 
                     if Rowstype == '10-12':
                         Rowbet = int(input('How much would you like to bet?\n'))
                         Rows = True
                         Row5 = True
-                        print('your bet has been placed')
+                        print('Your bet has been placed')
 
                     if Rowstype == '13-15':
                         Rowbet = int(input('How much would you like to bet?\n'))
                         Rows = True
                         Row6 = True
-                        print('your bet has been placed')
+                        print('Your bet has been placed')
 
                     if Rowstype == '16-18':
                         Rowbet = int(input('How much would you like to bet?\n'))
                         Rows = True
                         Row7 = True
-                        print('your bet has been placed')
+                        print('Your bet has been placed')
 
                     if Rowstype == '19-21':
                         Rowbet = int(input('How much would you like to bet?\n'))
                         Rows = True
                         Row8 = True
-                        print('your bet has been placed')
+                        print('Your bet has been placed')
 
                     if Rowstype == '22-24':
                         Rowbet = int(input('How much would you like to bet?\n'))
                         Rows = True
                         Row9 = True
-                        print('your bet has been placed')
+                        print('Your bet has been placed')
 
                     if Rowstype == '25-27':
                         Rowbet = int(input('How much would you like to bet?\n'))
                         Rows = True
                         Row10 = True
-                        print('your bet has been placed')
+                        print('Your bet has been placed')
 
                     if Rowstype == '28-30':
                         Rowbet = int(input('How much would you like to bet?\n'))
                         Rows = True
                         Row11 = True
-                        print('your bet has been placed')
+                        print('Your bet has been placed')
 
                     if Rowstype == '31-33':
                         Rowbet = int(input('How much would you like to bet?\n'))
                         Rows = True
                         Row12 = True
-                        print('your bet has been placed')
+                        print('Your bet has been placed')
 
                     if Rowstype == '34-36':
                         Rowbet = int(input('How much would you like to bet?\n'))
                         Rows = True
                         Row13 = True
-                        print('your bet has been placed')
+                        print('Your bet has been placed')
 
                     if Rowstype != '0-2' and '1-3' and '4-6' and '7-9' and '10-12' and '13-15' and '16-18' and '19-21' and '22-24' and '25-27' and '28-30' and '31-33' and '34-36':
                         print('Your answer must be from the options of 0-2, 1-3, 4-6, 7-9, 10-12, 13-15, 16-18, 19-21, 22-24, 25-27, 28-30, 31-33, or 34-36 ')
@@ -218,5 +218,85 @@ while p == True:
 
                     if columntype != '1' and '2' and '3':
                         print('Your answer must be a 1,2, or 3.')
+                        sectionalbettypecounter -= 1
+
+
+            if sectionalbetquestion.lower() == 'thirds':
+                if Thirds == True:
+                    print('You already made a bet here')
+                    sectionalbettypecounter -= 1
+                else:
+                    Third1 = False
+                    Third2 = False
+                    Third3 = False
+                    Thirdbet = 0
+                    Thirdtype = input('Which third would you like to make a bet on? 1-12, 13-24, or 25-36?\n')
+                    if Thirdtype == '1-12':
+                        Thirdbet = int(input('How much would you like to bet\n'))
+                        Thirds = True
+                        Third1 = True
+                        print('Your bet has been placed')
+                    if Thirdtype == '13-24':
+                        Thirdbet = int(input('How much would you like to bet\n'))
+                        Thirds = True
+                        Third2 = True
+                        print('Your bet has been placed')
+                    if Thirdtype == '25-36':
+                        Thirdbet = int(input('How much would you like to bet\n'))
+                        Thirds = True
+                        Third3 = True
+                        print('Your bet has been placed')
+                    if Thirdtype != '1-12' and '13-24' and '25-36':
+                        print('Your answer must be either 1-12, 13-24, or 25-36.')
+                        sectionalbettypecounter -= 1
+
+
+            if sectionalbetquestion.lower() == 'odd/even':
+                if OddEven == True:
+                    print('You already made a bet here')
+                    sectionalbettypecounter -= 1
+                else:
+                    Odd = False
+                    Even = False
+                    OddEvenbet = 0
+                    OddEventype = input('Would you like to bet on odd or even? 0 is not included.\n')
+                    if OddEventype.lower() == 'odd':
+                        OddEvenbet = int(input('How much would you like to bet?\n'))
+                        OddEven = True
+                        Odd = True
+                        print('Your bet has been placed')
+                    if OddEventype.lower() == 'even':
+                        OddEvenbet = int(input('How much would you like to bet?\n'))
+                        OddEven = True
+                        Even = True
+                        print('Your bet has been placed')
+                    if OddEventype.lower() != 'odd' and 'even':
+                        print('Your answer must be odd or even.')
+                        sectionalbettypecounter -= 1
+
+
+            if sectionalbetquestion.lower() == 'red/black':
+                if Colours == True:
+                    print('You already made a bet here')
+                    sectionalbettypecounter -= 1
+                else:
+                    Red = False
+                    Black = False
+                    Colourbet = 0
+                    Colourtype = input('Would you like to bet on red or black?\n'
+                                       'Red numbers are: 1, 3, 5, 7, 9, 12, 14, 16, 18, 19, 21, 23, 25, 27, 30, 32, 34, and 36.\n'
+                                       'Black numbers are 2, 4, 6, 8, 10, 11, 13, 15, 17, 20, 22, 24, 26, 28, 29, 31, 33, and 35.\n')
+                    if Colourtype.lower() == 'red':
+                        Colourbet = int(input('How much would you like to bet?\n'))
+                        Colours = True
+                        Red = True
+                        print('Your bet has been placed')
+                    if Colourtype.lower() == 'black':
+                        Colourbet = int(input('How much would you like to bet?\n'))
+                        Colours = True
+                        Black = True
+                        print('Your bet has been placed')
+                    if Colourtype.lower() != 'red' and 'black':
+                        print('Your answer must be red or black.')
                         sectionalbettypecounter -= 1
 
