@@ -1333,9 +1333,9 @@ while p == True:
         if spin == 0:
             print('And the roll is 0, green')
         elif spin in [1,3,5,9,12,14,16,18,19,21,23,25,27,30,32,34,36]:
-            print(f'And the roll is {spin}, red')
+            print(f'And the roll is {spin}, red\n')
         else:
-            print(f'And the roll is {spin}, black')
+            print(f'And the roll is {spin}, black\n')
         action = 7
 
     if action == 7:
@@ -2139,3 +2139,21 @@ while p == True:
             else:
                 print('You did not win your bet on columns')
                 currentbalance -= columnbet
+
+        if Thirds == True:
+            if Third1 == True and Third1Checker == True:
+                Thirdbet = Thirdbet * 2
+                print(f'You won your bet on thirds, earning you {Thirdbet}!')
+                currentbalance += Thirdbet
+            elif Third2 == True and Third2Checker == True:
+                Thirdbet = Thirdbet * 2
+                print(f'You won your bet on thirds, earning you {Thirdbet}!')
+                currentbalance += Thirdbet
+            elif Third3 == True and Third3Checker == True:
+                Thirdbet = Thirdbet * 2
+                print(f'You won your bet on thirds, earning you {Thirdbet}!')
+                currentbalance += Thirdbet
+            else:
+                print('You lost your bet on thirds.')
+                currentbalance -= Thirdbet
+
