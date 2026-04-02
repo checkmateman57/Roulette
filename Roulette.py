@@ -2189,3 +2189,156 @@ while p == True:
             else:
                 print('You lost your bet on high/low.')
                 currentbalance -= HighLowbet
+
+        if Single == True:
+            if Single0 == True and Single0Checker == True:
+                Singlebet = Singlebet * 35
+                print(f'You won your bet on 0, winning you {Singlebet}!!')
+                currentbalance += Singlebet
+            elif Single1 == True and Single1Checker == True:
+                Singlebet = Singlebet * 35
+                print(f'You won your bet on 1, winning you {Singlebet}!')
+                currentbalance += Singlebet
+            elif Single2 == True and Single2Checker == True:
+                Singlebet = Singlebet * 35
+                print(f'You won your bet on 2, winning you {Singlebet}!')
+                currentbalance += Singlebet
+            elif Single3 == True and Single3Checker == True:
+                Singlebet = Singlebet * 35
+                print(f'You won your bet on 3, winning you {Singlebet}!')
+                currentbalance += Singlebet
+            elif Single4 == True and Single4Checker == True:
+                Singlebet = Singlebet * 35
+                print(f'You won your bet on 4, winning you {Singlebet}!')
+                currentbalance += Singlebet
+            elif Single5 == True and Single5Checker == True:
+                Singlebet = Singlebet * 35
+                print(f'You won your bet on 5, winning you {Singlebet}!')
+                currentbalance += Singlebet
+            elif Single6 == True and Single6Checker == True:
+                Singlebet = Singlebet * 35
+                print(f'You won your bet on 6, winning you {Singlebet}!')
+                currentbalance += Singlebet
+            elif Single7 == True and Single7Checker == True:
+                Singlebet = Singlebet * 35
+                print(f'You won your bet on 7, winning you {Singlebet}!')
+                currentbalance += Singlebet
+            elif Single8 == True and Single8Checker == True:
+                Singlebet = Singlebet * 35
+                print(f'You won your bet on 8, winning you {Singlebet}!')
+                currentbalance += Singlebet
+            elif Single9 == True and Single9Checker == True:
+                Singlebet = Singlebet * 35
+                print(f'You won your bet on 9, winning you {Singlebet}!')
+                currentbalance += Singlebet
+            elif Single10 == True and Single10Checker == True:
+                Singlebet = Singlebet * 35
+                print(f'You won your bet on 10, winning you {Singlebet}!')
+                currentbalance += Singlebet
+            elif Single11 == True and Single11Checker == True:
+                Singlebet = Singlebet * 35
+                print(f'You won your bet on 11, winning you {Singlebet}!')
+                currentbalance += Singlebet
+            elif Single12 == True and Single12Checker == True:
+                Singlebet = Singlebet * 35
+                print(f'You won your bet on 12, winning you {Singlebet}!')
+                currentbalance += Singlebet
+            elif Single13 == True and Single13Checker == True:
+                Singlebet = Singlebet * 35
+                print(f'You won your bet on 13, winning you {Singlebet}!')
+                currentbalance += Singlebet
+            elif Single14 == True and Single14Checker == True:
+                Singlebet = Singlebet * 35
+                print(f'You won your bet on 14, winning you {Singlebet}!')
+                currentbalance += Singlebet
+            elif Single15 == True and Single15Checker == True:
+                Singlebet = Singlebet * 35
+                print(f'You won your bet on 15, winning you {Singlebet}!')
+                currentbalance += Singlebet
+            elif Single16 == True and Single16Checker == True:
+                Singlebet = Singlebet * 35
+                print(f'You won your bet on 16, winning you {Singlebet}!')
+                currentbalance += Singlebet
+            elif Single17 == True and Single17Checker == True:
+                Singlebet = Singlebet * 35
+                print(f'You won your bet on 17, winning you {Singlebet}!')
+                currentbalance += Singlebet
+            elif Single18 == True and Single18Checker == True:
+                Singlebet = Singlebet * 35
+                print(f'You won your bet on 18, winning you {Singlebet}!')
+                currentbalance += Singlebet
+            elif Single19 == True and Single19Checker == True:
+                Singlebet = Singlebet * 35
+                print(f'You won your bet on 19, winning you {Singlebet}!')
+                currentbalance += Singlebet
+            elif Single20 == True and Single20Checker == True:
+                Singlebet = Singlebet * 35
+                print(f'You won your bet on 20, winning you {Singlebet}!')
+                currentbalance += Singlebet
+            elif Single21 == True and Single21Checker == True:
+                Singlebet = Singlebet * 35
+                print(f'You won your bet on 21, winning you {Singlebet}!')
+                currentbalance += Singlebet
+            elif Single22 == True and Single22Checker == True:
+                Singlebet = Singlebet * 35
+                print(f'You won your bet on 22, winning you {Singlebet}!')
+                currentbalance += Singlebet
+            elif Single23 == True and Single23Checker == True:
+                Singlebet = Singlebet * 35
+                print(f'You won your bet on 23, winning you {Singlebet}!')
+                currentbalance += Singlebet
+            elif Single24 == True and Single24Checker == True:
+                Singlebet = Singlebet * 35
+                print(f'You won your bet on 24, winning you {Singlebet}!')
+                currentbalance += Singlebet
+            elif Single25 == True and Single25Checker == True:
+                Singlebet = Singlebet * 35
+                print(f'You won your bet on 25, winning you {Singlebet}!')
+                currentbalance += Singlebet
+            elif Single26 == True and Single26Checker == True:
+                Singlebet = Singlebet * 35
+                print(f'You won your bet on 26, winning you {Singlebet}!')
+                currentbalance += Singlebet
+            elif Single27 == True and Single27Checker == True:
+                Singlebet = Singlebet * 35
+                print(f'You won your bet on 27, winning you {Singlebet}!')
+                currentbalance += Singlebet
+            elif Single28 == True and Single28Checker == True:
+                Singlebet = Singlebet * 35
+                print(f'You won your bet on 28, winning you {Singlebet}!')
+                currentbalance += Singlebet
+            elif Single29 == True and Single29Checker == True:
+                Singlebet = Singlebet * 35
+                print(f'You won your bet on 29, winning you {Singlebet}!')
+                currentbalance += Singlebet
+            elif Single30 == True and Single30Checker == True:
+                Singlebet = Singlebet * 35
+                print(f'You won your bet on 30, winning you {Singlebet}!')
+                currentbalance += Singlebet
+            elif Single31 == True and Single31Checker == True:
+                Singlebet = Singlebet * 35
+                print(f'You won your bet on 31, winning you {Singlebet}!')
+                currentbalance += Singlebet
+            elif Single32 == True and Single32Checker == True:
+                Singlebet = Singlebet * 35
+                print(f'You won your bet on 32, winning you {Singlebet}!')
+                currentbalance += Singlebet
+            elif Single33 == True and Single33Checker == True:
+                Singlebet = Singlebet * 35
+                print(f'You won your bet on 33, winning you {Singlebet}!')
+                currentbalance += Singlebet
+            elif Single34 == True and Single34Checker == True:
+                Singlebet = Singlebet * 35
+                print(f'You won your bet on 34, winning you {Singlebet}!')
+                currentbalance += Singlebet
+            elif Single35 == True and Single35Checker == True:
+                Singlebet = Singlebet * 35
+                print(f'You won your bet on 35, winning you {Singlebet}!')
+                currentbalance += Singlebet
+            elif Single36 == True and Single36Checker == True:
+                Singlebet = Singlebet * 35
+                print(f'You won your bet on 36, winning you {Singlebet}!')
+                currentbalance += Singlebet
+            else:
+                print('You lost your single number bet.')
+                currentbalance -= Singlebet
