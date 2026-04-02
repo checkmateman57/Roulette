@@ -2342,3 +2342,248 @@ while p == True:
             else:
                 print('You lost your single number bet.')
                 currentbalance -= Singlebet
+
+        if Double == True:
+            if Vertical1 == True and Vertical1Checker == True:
+                Doublebet = Doublebet * 17
+                print(f'You won your veritical bet, winning you {Doublebet}!')
+                currentbalance += Doublebet
+            elif Vertical2 == True and Vertical2Checker == True:
+                Doublebet = Doublebet * 17
+                print(f'You won your veritical bet, winning you {Doublebet}!')
+                currentbalance += Doublebet
+            elif Vertical3 == True and Vertical3Checker == True:
+                Doublebet = Doublebet * 17
+                print(f'You won your veritical bet, winning you {Doublebet}!')
+                currentbalance += Doublebet
+            elif Vertical4 == True and Vertical4Checker == True:
+                Doublebet = Doublebet * 17
+                print(f'You won your veritical bet, winning you {Doublebet}!')
+                currentbalance += Doublebet
+            elif Vertical5 == True and Vertical5Checker == True:
+                Doublebet = Doublebet * 17
+                print(f'You won your veritical bet, winning you {Doublebet}!')
+                currentbalance += Doublebet
+            elif Vertical6 == True and Vertical6Checker == True:
+                Doublebet = Doublebet * 17
+                print(f'You won your veritical bet, winning you {Doublebet}!')
+                currentbalance += Doublebet
+            elif Vertical7 == True and Vertical7Checker == True:
+                Doublebet = Doublebet * 17
+                print(f'You won your veritical bet, winning you {Doublebet}!')
+                currentbalance += Doublebet
+            elif Vertical8 == True and Vertical8Checker == True:
+                Doublebet = Doublebet * 17
+                print(f'You won your veritical bet, winning you {Doublebet}!')
+                currentbalance += Doublebet
+            elif Vertical9 == True and Vertical9Checker == True:
+                Doublebet = Doublebet * 17
+                print(f'You won your veritical bet, winning you {Doublebet}!')
+                currentbalance += Doublebet
+            elif Vertical10 == True and Vertical10Checker == True:
+                Doublebet = Doublebet * 17
+                print(f'You won your veritical bet, winning you {Doublebet}!')
+                currentbalance += Doublebet
+            elif Vertical11 == True and Vertical11Checker == True:
+                Doublebet = Doublebet * 17
+                print(f'You won your veritical bet, winning you {Doublebet}!')
+                currentbalance += Doublebet
+            elif Vertical12 == True and Vertical12Checker == True:
+                Doublebet = Doublebet * 17
+                print(f'You won your veritical bet, winning you {Doublebet}!')
+                currentbalance += Doublebet
+            elif Vertical13 == True and Vertical13Checker == True:
+                Doublebet = Doublebet * 17
+                print(f'You won your veritical bet, winning you {Doublebet}!')
+                currentbalance += Doublebet
+            elif Vertical14 == True and Vertical14Checker == True:
+                Doublebet = Doublebet * 17
+                print(f'You won your veritical bet, winning you {Doublebet}!')
+                currentbalance += Doublebet
+            elif Vertical15 == True and Vertical15Checker == True:
+                Doublebet = Doublebet * 17
+                print(f'You won your veritical bet, winning you {Doublebet}!')
+                currentbalance += Doublebet
+            elif Vertical16 == True and Vertical16Checker == True:
+                Doublebet = Doublebet * 17
+                print(f'You won your veritical bet, winning you {Doublebet}!')
+                currentbalance += Doublebet
+            elif Vertical17 == True and Vertical17Checker == True:
+                Doublebet = Doublebet * 17
+                print(f'You won your veritical bet, winning you {Doublebet}!')
+                currentbalance += Doublebet
+            elif Vertical18 == True and Vertical18Checker == True:
+                Doublebet = Doublebet * 17
+                print(f'You won your veritical bet, winning you {Doublebet}!')
+                currentbalance += Doublebet
+            elif Vertical19 == True and Vertical19Checker == True:
+                Doublebet = Doublebet * 17
+                print(f'You won your veritical bet, winning you {Doublebet}!')
+                currentbalance += Doublebet
+            elif Vertical20 == True and Vertical20Checker == True:
+                Doublebet = Doublebet * 17
+                print(f'You won your veritical bet, winning you {Doublebet}!')
+                currentbalance += Doublebet
+            elif Vertical21 == True and Vertical21Checker == True:
+                Doublebet = Doublebet * 17
+                print(f'You won your veritical bet, winning you {Doublebet}!')
+                currentbalance += Doublebet
+            elif Vertical22 == True and Vertical22Checker == True:
+                Doublebet = Doublebet * 17
+                print(f'You won your veritical bet, winning you {Doublebet}!')
+                currentbalance += Doublebet
+            elif Vertical23 == True and Vertical23Checker == True:
+                Doublebet = Doublebet * 17
+                print(f'You won your veritical bet, winning you {Doublebet}!')
+                currentbalance += Doublebet
+            elif Vertical24 == True and Vertical24Checker == True:
+                Doublebet = Doublebet * 17
+                print(f'You won your veritical bet, winning you {Doublebet}!')
+                currentbalance += Doublebet
+            elif Vertical25 == True and Vertical25Checker == True:
+                Doublebet = Doublebet * 17
+                print(f'You won your veritical bet, winning you {Doublebet}!')
+                currentbalance += Doublebet
+            elif Vertical26 == True and Vertical26Checker == True:
+                Doublebet = Doublebet * 17
+                print(f'You won your veritical bet, winning you {Doublebet}!')
+                currentbalance += Doublebet
+            elif Vertical27 == True and Vertical27Checker == True:
+                Doublebet = Doublebet * 17
+                print(f'You won your veritical bet, winning you {Doublebet}!')
+                currentbalance += Doublebet
+            elif Vertical28 == True and Vertical28Checker == True:
+                Doublebet = Doublebet * 17
+                print(f'You won your veritical bet, winning you {Doublebet}!')
+                currentbalance += Doublebet
+            elif Vertical29 == True and Vertical29Checker == True:
+                Doublebet = Doublebet * 17
+                print(f'You won your veritical bet, winning you {Doublebet}!')
+                currentbalance += Doublebet
+            elif Vertical30 == True and Vertical30Checker == True:
+                Doublebet = Doublebet * 17
+                print(f'You won your veritical bet, winning you {Doublebet}!')
+                currentbalance += Doublebet
+            elif Vertical31 == True and Vertical31Checker == True:
+                Doublebet = Doublebet * 17
+                print(f'You won your veritical bet, winning you {Doublebet}!')
+                currentbalance += Doublebet
+            elif Vertical32 == True and Vertical32Checker == True:
+                Doublebet = Doublebet * 17
+                print(f'You won your veritical bet, winning you {Doublebet}!')
+                currentbalance += Doublebet
+            elif Vertical33 == True and Vertical33Checker == True:
+                Doublebet = Doublebet * 17
+                print(f'You won your veritical bet, winning you {Doublebet}!')
+                currentbalance += Doublebet
+            elif Vertical34 == True and Vertical34Checker == True:
+                Doublebet = Doublebet * 17
+                print(f'You won your veritical bet, winning you {Doublebet}!')
+                currentbalance += Doublebet
+            elif Vertical35 == True and Vertical35Checker == True:
+                Doublebet = Doublebet * 17
+                print(f'You won your veritical bet, winning you {Doublebet}!')
+                currentbalance += Doublebet
+            elif Vertical36 == True and Vertical36Checker == True:
+                Doublebet = Doublebet * 17
+                print(f'You won your veritical bet, winning you {Doublebet}!')
+                currentbalance += Doublebet
+            elif Horizontal1 == True and Horizontal1Checker == True:
+                Doublebet = Doublebet * 17
+                print(f'You won your horizontal bet, winning you {Doublebet}!')
+                currentbalance += Doublebet
+            elif Horizontal2 == True and Horizontal2Checker == True:
+                Doublebet = Doublebet * 17
+                print(f'You won your horizontal bet, winning you {Doublebet}!')
+                currentbalance += Doublebet
+            elif Horizontal3 == True and Horizontal3Checker == True:
+                Doublebet = Doublebet * 17
+                print(f'You won your horizontal bet, winning you {Doublebet}!')
+                currentbalance += Doublebet
+            elif Horizontal4 == True and Horizontal4Checker == True:
+                Doublebet = Doublebet * 17
+                print(f'You won your vhorizontal bet, winning you {Doublebet}!')
+                currentbalance += Doublebet
+            elif Horizontal5 == True and Horizontal5Checker == True:
+                Doublebet = Doublebet * 17
+                print(f'You won your horizontal bet, winning you {Doublebet}!')
+                currentbalance += Doublebet
+            elif Horizontal6 == True and Horizontal6Checker == True:
+                Doublebet = Doublebet * 17
+                print(f'You won your horizontal bet, winning you {Doublebet}!')
+                currentbalance += Doublebet
+            elif Horizontal7 == True and Horizontal7Checker == True:
+                Doublebet = Doublebet * 17
+                print(f'You won your horizontal bet, winning you {Doublebet}!')
+                currentbalance += Doublebet
+            elif Horizontal8 == True and Horizontal8Checker == True:
+                Doublebet = Doublebet * 17
+                print(f'You won your horizontal bet, winning you {Doublebet}!')
+                currentbalance += Doublebet
+            elif Horizontal9 == True and Horizontal9Checker == True:
+                Doublebet = Doublebet * 17
+                print(f'You won your horizontal bet, winning you {Doublebet}!')
+                currentbalance += Doublebet
+            elif Horizontal10 == True and Horizontal10Checker == True:
+                Doublebet = Doublebet * 17
+                print(f'You won your horizontal bet, winning you {Doublebet}!')
+                currentbalance += Doublebet
+            elif Horizontal11 == True and Horizontal11Checker == True:
+                Doublebet = Doublebet * 17
+                print(f'You won your horizontal bet, winning you {Doublebet}!')
+                currentbalance += Doublebet
+            elif Horizontal12 == True and Horizontal12Checker == True:
+                Doublebet = Doublebet * 17
+                print(f'You won your horizontal bet, winning you {Doublebet}!')
+                currentbalance += Doublebet
+            elif Horizontal13 == True and Horizontal13Checker == True:
+                Doublebet = Doublebet * 17
+                print(f'You won your horizontal bet, winning you {Doublebet}!')
+                currentbalance += Doublebet
+            elif Horizontal14 == True and Horizontal14Checker == True:
+                Doublebet = Doublebet * 17
+                print(f'You won your horizontal bet, winning you {Doublebet}!')
+                currentbalance += Doublebet
+            elif Horizontal15 == True and Horizontal15Checker == True:
+                Doublebet = Doublebet * 17
+                print(f'You won your horizontal bet, winning you {Doublebet}!')
+                currentbalance += Doublebet
+            elif Horizontal16 == True and Horizontal16Checker == True:
+                Doublebet = Doublebet * 17
+                print(f'You won your horizontal bet, winning you {Doublebet}!')
+                currentbalance += Doublebet
+            elif Horizontal17 == True and Horizontal17Checker == True:
+                Doublebet = Doublebet * 17
+                print(f'You won your horizontal bet, winning you {Doublebet}!')
+                currentbalance += Doublebet
+            elif Horizontal18 == True and Horizontal18Checker == True:
+                Doublebet = Doublebet * 17
+                print(f'You won your horizontal bet, winning you {Doublebet}!')
+                currentbalance += Doublebet
+            elif Horizontal19 == True and Horizontal19Checker == True:
+                Doublebet = Doublebet * 17
+                print(f'You won your horizontal bet, winning you {Doublebet}!')
+                currentbalance += Doublebet
+            elif Horizontal20 == True and Horizontal20Checker == True:
+                Doublebet = Doublebet * 17
+                print(f'You won your horizontal bet, winning you {Doublebet}!')
+                currentbalance += Doublebet
+            elif Horizontal21 == True and Horizontal21Checker == True:
+                Doublebet = Doublebet * 17
+                print(f'You won your horizontal bet, winning you {Doublebet}!')
+                currentbalance += Doublebet
+            elif Horizontal22 == True and Horizontal22Checker == True:
+                Doublebet = Doublebet * 17
+                print(f'You won your horizontal bet, winning you {Doublebet}!')
+                currentbalance += Doublebet
+            elif Horizontal23 == True and Horizontal23Checker == True:
+                Doublebet = Doublebet * 17
+                print(f'You won your horizontal bet, winning you {Doublebet}!')
+                currentbalance += Doublebet
+            elif Horizontal24 == True and Horizontal24Checker == True:
+                Doublebet = Doublebet * 17
+                print(f'You won your horizontal bet, winning you {Doublebet}!')
+                currentbalance += Doublebet
+            else:
+                print('You lost your 2 Way bet.')
+                currentbalance -= Doublebet
