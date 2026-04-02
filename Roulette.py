@@ -1325,4 +1325,14 @@ while p == True:
             else:
                 print('Your answer must be Single, 2 way, 4 way, or 6 way')
 
+        if numberbettypecounter == numberbettype:
+            action = 6
 
+    if action == 6:
+        spin = random.randint(0,36)
+        if spin == 0:
+            print('And the roll is 0, green')
+        elif spin in [1,3,5,9,12,14,16,18,19,21,23,25,27,30,32,34,36]:
+            print(f'And the roll is {spin}, red')
+        else:
+            print(f'And the roll is {spin}, black')
