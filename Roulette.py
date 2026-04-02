@@ -2157,3 +2157,14 @@ while p == True:
                 print('You lost your bet on thirds.')
                 currentbalance -= Thirdbet
 
+        if OddEven == True:
+            if Odd == True and OddChecker == True:
+                print(f'You won your bet on odd, earning you {OddEvenbet}!')
+                currentbalance += OddEvenbet
+            elif Even == True and EvenChecker == True:
+                print(f'You won your bet on even, earning you {OddEvenbet}!')
+                currentbalance += OddEvenbet
+            else:
+                print('You lost your bet on odd/even.')
+                currentbalance -= OddEvenbet
+
