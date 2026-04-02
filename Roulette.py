@@ -108,79 +108,79 @@ while p == True:
                     if Rowstype == '0-2':
                         Rowbet = int(input('How much would you like to bet?\n'))
                         Rows = True
-                        Row1 = True
+                        Row13 = True
                         print('Your bet has been placed')
                         sectionalbettypecounter += 1
                     elif Rowstype == '1-3':
                         Rowbet = int(input('How much would you like to bet?\n'))
                         Rows = True
-                        Row2 = True
+                        Row1 = True
                         print('Your bet has been placed')
                         sectionalbettypecounter += 1
                     elif Rowstype == '4-6':
                         Rowbet = int(input('How much would you like to bet?\n'))
                         Rows = True
-                        Row3 = True
+                        Row2 = True
                         print('Your bet has been placed')
                         sectionalbettypecounter += 1
                     elif Rowstype == '7-9':
                         Rowbet = int(input('How much would you like to bet?\n'))
                         Rows = True
-                        Row4 = True
+                        Row3 = True
                         print('Your bet has been placed')
                         sectionalbettypecounter += 1
                     elif Rowstype == '10-12':
                         Rowbet = int(input('How much would you like to bet?\n'))
                         Rows = True
-                        Row5 = True
+                        Row4 = True
                         print('Your bet has been placed')
                         sectionalbettypecounter += 1
                     elif Rowstype == '13-15':
                         Rowbet = int(input('How much would you like to bet?\n'))
                         Rows = True
-                        Row6 = True
+                        Row5 = True
                         print('Your bet has been placed')
                         sectionalbettypecounter += 1
                     elif Rowstype == '16-18':
                         Rowbet = int(input('How much would you like to bet?\n'))
                         Rows = True
-                        Row7 = True
+                        Row6 = True
                         print('Your bet has been placed')
                         sectionalbettypecounter += 1
                     elif Rowstype == '19-21':
                         Rowbet = int(input('How much would you like to bet?\n'))
                         Rows = True
-                        Row8 = True
+                        Row7 = True
                         print('Your bet has been placed')
                         sectionalbettypecounter += 1
                     elif Rowstype == '22-24':
                         Rowbet = int(input('How much would you like to bet?\n'))
                         Rows = True
-                        Row9 = True
+                        Row8 = True
                         print('Your bet has been placed')
                         sectionalbettypecounter += 1
                     elif Rowstype == '25-27':
                         Rowbet = int(input('How much would you like to bet?\n'))
                         Rows = True
-                        Row10 = True
+                        Row9 = True
                         print('Your bet has been placed')
                         sectionalbettypecounter += 1
                     elif Rowstype == '28-30':
                         Rowbet = int(input('How much would you like to bet?\n'))
                         Rows = True
-                        Row11 = True
+                        Row10 = True
                         print('Your bet has been placed')
                         sectionalbettypecounter += 1
                     elif Rowstype == '31-33':
                         Rowbet = int(input('How much would you like to bet?\n'))
                         Rows = True
-                        Row12 = True
+                        Row11 = True
                         print('Your bet has been placed')
                         sectionalbettypecounter += 1
                     elif Rowstype == '34-36':
                         Rowbet = int(input('How much would you like to bet?\n'))
                         Rows = True
-                        Row13 = True
+                        Row12 = True
                         print('Your bet has been placed')
                         sectionalbettypecounter += 1
                     else:
@@ -1329,7 +1329,7 @@ while p == True:
             action = 6
 
     if action == 6:
-        spin = random.randint(0,36)
+        spin = random.randint(34,36)
         if spin == 0:
             print('And the roll is 0, green')
         elif spin in [1,3,5,9,12,14,16,18,19,21,23,25,27,30,32,34,36]:
@@ -1501,6 +1501,7 @@ while p == True:
             Vertical1Checker = True
             Vertical2Checker = True
             Vertical3Checker = True
+            Row13Checker = True
         elif spin == 1:
             Single1Checker = True
             Vertical1Checker = True
@@ -1513,6 +1514,7 @@ while p == True:
             Third1Checker = True
             LowChecker = True
             Row1Checker = True
+            Row13Checker = True
             OddChecker = True
         elif spin == 2:
             Single2Checker = True
@@ -1528,6 +1530,7 @@ while p == True:
             Third1Checker = True
             LowChecker = True
             Row1Checker = True
+            Row13Checker = True
             EvenChecker = True
         elif spin == 3:
             Single3Checker = True
@@ -2060,3 +2063,62 @@ while p == True:
             HighChecker = True
             Row12Checker = True
             EvenChecker = True
+        action = 8
+
+    if action == 8:
+        if Rows == True:
+            if Row1 == True and Row1Checker == True:
+                Rowbet = Rowbet * 11
+                currentbalance += Rowbet
+                print(f'You won your bet on rows, earning you {Rowbet}!')
+            elif Row2 == True and Row2Checker == True:
+                Rowbet = Rowbet * 11
+                print(f'You won your bet on rows, earning you {Rowbet}!')
+                currentbalance += Rowbet
+            elif Row3 == True and Row3Checker == True:
+                Rowbet = Rowbet * 11
+                print(f'You won your bet on rows, earning you {Rowbet}!')
+                currentbalance += Rowbet
+            elif Row4 == True and Row4Checker == True:
+                Rowbet = Rowbet * 11
+                print(f'You won your bet on rows, earning you {Rowbet}!')
+                currentbalance += Rowbet
+            elif Row5 == True and Row5Checker == True:
+                Rowbet = Rowbet * 11
+                print(f'You won your bet on rows, earning you {Rowbet}!')
+                currentbalance += Rowbet
+            elif Row6 == True and Row6Checker == True:
+                Rowbet = Rowbet * 11
+                print(f'You won your bet on rows, earning you {Rowbet}!')
+                currentbalance += Rowbet
+            elif Row7 == True and Row7Checker == True:
+                Rowbet = Rowbet * 11
+                print(f'You won your bet on rows, earning you {Rowbet}!')
+                currentbalance += Rowbet
+            elif Row8 == True and Row8Checker == True:
+                Rowbet = Rowbet * 11
+                print(f'You won your bet on rows, earning you {Rowbet}!')
+                currentbalance += Rowbet
+            elif Row9 == True and Row9Checker == True:
+                Rowbet = Rowbet * 11
+                print(f'You won your bet on rows, earning you {Rowbet}!')
+                currentbalance += Rowbet
+            elif Row10 == True and Row10Checker == True:
+                Rowbet = Rowbet * 11
+                print(f'You won your bet on rows, earning you {Rowbet}!')
+                currentbalance += Rowbet
+            elif Row11 == True and Row11Checker == True:
+                Rowbet = Rowbet * 11
+                print(f'You won your bet on rows, earning you {Rowbet}!')
+                currentbalance += Rowbet
+            elif Row12 == True and Row12Checker == True:
+                Rowbet = Rowbet * 11
+                print(f'You won your bet on rows, earning you {Rowbet}!')
+                currentbalance += Rowbet
+            elif Row13 == True and Row13Checker == True:
+                Rowbet = Rowbet * 11
+                print(f'You won your bet on rows, earning you {Rowbet}!')
+                currentbalance += Rowbet
+            else:
+                print('You did not win your bet on rows.')
+                currentbalance -= Rowbet
