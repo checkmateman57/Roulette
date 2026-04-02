@@ -1099,133 +1099,133 @@ while p == True:
                                         '1,2,4,5    2,3,5,6    4,5,7,8    5,6,8,9    7,8,10,11    8,9,11,12    10,11,13,14    11,12,14,15    13,14,16,17    14,15,17,18   16,17,19,20    17,18,20,21\n'
                                         '19,20,22,23    20,21,23,24    22,23,25,26    23,24,26,27    25,26,28,29    26,27,29,30    28,29,31,32    29,30,32,33    31,32,34,35    32,33,35,36\n')
                     if Fourbettype == '1,2,4,5':
-                        FourWaybet = int(input('How much would you like to bet?'))
+                        FourWaybet = int(input('How much would you like to bet?\n'))
                         FourWay = True
                         FourWay1 = True
                         print('Your bet has been placed.')
                         numberbettypecounter += 1
                     elif Fourbettype == '2,3,5,6':
-                        FourWaybet = int(input('How much would you like to bet?'))
+                        FourWaybet = int(input('How much would you like to bet?\n'))
                         FourWay = True
                         FourWay2 = True
                         print('Your bet has been placed.')
                         numberbettypecounter += 1
                     elif Fourbettype == '4,5,7,8':
-                        FourWaybet = int(input('How much would you like to bet?'))
+                        FourWaybet = int(input('How much would you like to bet?\n'))
                         FourWay = True
                         FourWay3 = True
                         print('Your bet has been placed.')
                         numberbettypecounter += 1
                     elif Fourbettype == '5,6,8,9':
-                        FourWaybet = int(input('How much would you like to bet?'))
+                        FourWaybet = int(input('How much would you like to bet?\n'))
                         FourWay = True
                         FourWay4 = True
                         print('Your bet has been placed.')
                         numberbettypecounter += 1
                     elif Fourbettype == '7,8,10,11':
-                        FourWaybet = int(input('How much would you like to bet?'))
+                        FourWaybet = int(input('How much would you like to bet?\n'))
                         FourWay = True
                         FourWay5 = True
                         print('Your bet has been placed.')
                         numberbettypecounter += 1
                     elif Fourbettype == '8,9,11,12':
-                        FourWaybet = int(input('How much would you like to bet?'))
+                        FourWaybet = int(input('How much would you like to bet?\n'))
                         FourWay = True
                         FourWay6 = True
                         print('Your bet has been placed.')
                         numberbettypecounter += 1
                     elif Fourbettype == '10,11,13,14':
-                        FourWaybet = int(input('How much would you like to bet?'))
+                        FourWaybet = int(input('How much would you like to bet?\n'))
                         FourWay = True
                         FourWay7 = True
                         print('Your bet has been placed.')
                         numberbettypecounter += 1
                     elif Fourbettype == '11,12,14,15':
-                        FourWaybet = int(input('How much would you like to bet?'))
+                        FourWaybet = int(input('How much would you like to bet?\n'))
                         FourWay = True
                         FourWay8 = True
                         print('Your bet has been placed.')
                         numberbettypecounter += 1
                     elif Fourbettype == '13,14,16,17':
-                        FourWaybet = int(input('How much would you like to bet?'))
+                        FourWaybet = int(input('How much would you like to bet?\n'))
                         FourWay = True
                         FourWay9 = True
                         print('Your bet has been placed.')
                         numberbettypecounter += 1
                     elif Fourbettype == '14,15,17,18':
-                        FourWaybet = int(input('How much would you like to bet?'))
+                        FourWaybet = int(input('How much would you like to bet?\n'))
                         FourWay = True
                         FourWay10 = True
                         print('Your bet has been placed.')
                         numberbettypecounter += 1
                     elif Fourbettype == '16,17,19,20':
-                        FourWaybet = int(input('How much would you like to bet?'))
+                        FourWaybet = int(input('How much would you like to bet?\n'))
                         FourWay = True
                         FourWay11 = True
                         print('Your bet has been placed.')
                         numberbettypecounter += 1
                     elif Fourbettype == '17,18,20,21':
-                        FourWaybet = int(input('How much would you like to bet?'))
+                        FourWaybet = int(input('How much would you like to bet?\n'))
                         FourWay = True
                         FourWay12 = True
                         print('Your bet has been placed.')
                         numberbettypecounter += 1
                     elif Fourbettype == '19,20,22,23':
-                        FourWaybet = int(input('How much would you like to bet?'))
+                        FourWaybet = int(input('How much would you like to bet?\n'))
                         FourWay = True
                         FourWay13 = True
                         print('Your bet has been placed.')
                         numberbettypecounter += 1
                     elif Fourbettype == '20,21,23,24':
-                        FourWaybet = int(input('How much would you like to bet?'))
+                        FourWaybet = int(input('How much would you like to bet?\n'))
                         FourWay = True
                         FourWay14 = True
                         print('Your bet has been placed.')
                         numberbettypecounter += 1
                     elif Fourbettype == '22,23,25,26':
-                        FourWaybet = int(input('How much would you like to bet?'))
+                        FourWaybet = int(input('How much would you like to bet?\n'))
                         FourWay = True
                         FourWay15 = True
                         print('Your bet has been placed.')
                         numberbettypecounter += 1
                     elif Fourbettype == '23,24,26,27':
-                        FourWaybet = int(input('How much would you like to bet?'))
+                        FourWaybet = int(input('How much would you like to bet?\n'))
                         FourWay = True
                         FourWay16 = True
                         print('Your bet has been placed.')
                         numberbettypecounter += 1
                     elif Fourbettype == '25,26,28,29':
-                        FourWaybet = int(input('How much would you like to bet?'))
+                        FourWaybet = int(input('How much would you like to bet?\n'))
                         FourWay = True
                         FourWay17 = True
                         print('Your bet has been placed.')
                         numberbettypecounter += 1
                     elif Fourbettype == '26,27,29,30':
-                        FourWaybet = int(input('How much would you like to bet?'))
+                        FourWaybet = int(input('How much would you like to bet?\n'))
                         FourWay = True
                         FourWay18 = True
                         print('Your bet has been placed.')
                         numberbettypecounter += 1
                     elif Fourbettype == '28,29,31,32':
-                        FourWaybet = int(input('How much would you like to bet?'))
+                        FourWaybet = int(input('How much would you like to bet?\n'))
                         FourWay = True
                         FourWay19 = True
                         print('Your bet has been placed.')
                         numberbettypecounter += 1
                     elif Fourbettype == '29,30,32,33':
-                        FourWaybet = int(input('How much would you like to bet?'))
+                        FourWaybet = int(input('How much would you like to bet?\n'))
                         FourWay = True
                         FourWay20 = True
                         print('Your bet has been placed.')
                         numberbettypecounter += 1
                     elif Fourbettype == '31,32,34,35':
-                        FourWaybet = int(input('How much would you like to bet?'))
+                        FourWaybet = int(input('How much would you like to bet?\n'))
                         FourWay = True
                         FourWay21 = True
                         print('Your bet has been placed.')
                         numberbettypecounter += 1
                     elif Fourbettype == '32,33,35,36':
-                        FourWaybet = int(input('How much would you like to bet?'))
+                        FourWaybet = int(input('How much would you like to bet?\n'))
                         FourWay = True
                         FourWay22 = True
                         print('Your bet has been placed.')
