@@ -1329,7 +1329,7 @@ while p == True:
             action = 6
 
     if action == 6:
-        spin = random.randint(34,36)
+        spin = random.randint(0,36)
         if spin == 0:
             print('And the roll is 0, green')
         elif spin in [1,3,5,9,12,14,16,18,19,21,23,25,27,30,32,34,36]:
@@ -2179,3 +2179,13 @@ while p == True:
                 print('You lost your bet on colours.')
                 currentbalance -= Colourbet
 
+        if HighLow == True:
+            if High == True and HighChecker == True:
+                print(f'You won your bet on high, earning you {HighLowbet}!')
+                currentbalance += HighLowbet
+            elif Low == True and LowChecker == True:
+                print(f'You won your bet on low, earning you {HighLowbet}!')
+                currentbalance += HighLowbet
+            else:
+                print('You lost your bet on high/low.')
+                currentbalance -= HighLowbet
