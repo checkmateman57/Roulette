@@ -55,6 +55,16 @@ while p == True:
         Double = False
         FourWay = False
         SixWay = False
+        Rowbet = 0
+        columnbet = 0
+        Thirdbet = 0
+        Colourbet = 0
+        OddEvenbet = 0
+        HighLowbet = 0
+        Singlebet = 0
+        Doublebet = 0
+        FourWaybet = 0
+        SixWaybet = 0
         betsection = int(input('How many types of bets would you like to make? (max 2) \n'))
         if betsection == 1:
             bettype = input('What type of bet would you like to make? Number or Sectional?\n')
@@ -107,79 +117,92 @@ while p == True:
                     Rowstype = input('On which row would you like to make your bet on?\n'
                                      '0-2, 1-3, 4-6, 7-9, 10-12, 13-15, 16-18, 19-21, 22-24, 25-27, 28-30, 31-33, or 34-36\n')
                     if Rowstype == '0-2':
-                        Rowbet = int(input('How much would you like to bet?\n'))
+                        RemainingBalance = currentbalance - Rowbet - columnbet - Colourbet - OddEvenbet - HighLowbet - Thirdbet - Singlebet - Doublebet - FourWaybet - SixWaybet
+                        Rowbet = int(input(f'How much would you like to bet? You have {RemainingBalance} left to bet on.\n'))
                         Rows = True
                         Row13 = True
                         print('Your bet has been placed')
                         sectionalbettypecounter += 1
                     elif Rowstype == '1-3':
-                        Rowbet = int(input('How much would you like to bet?\n'))
+                        RemainingBalance = currentbalance - Rowbet - columnbet - Colourbet - OddEvenbet - HighLowbet - Thirdbet - Singlebet - Doublebet - FourWaybet - SixWaybet
+                        Rowbet = int(input(f'How much would you like to bet? You have {RemainingBalance} left to bet on.\n'))
                         Rows = True
                         Row1 = True
                         print('Your bet has been placed')
                         sectionalbettypecounter += 1
                     elif Rowstype == '4-6':
-                        Rowbet = int(input('How much would you like to bet?\n'))
+                        RemainingBalance = currentbalance - Rowbet - columnbet - Colourbet - OddEvenbet - HighLowbet - Thirdbet - Singlebet - Doublebet - FourWaybet - SixWaybet
+                        Rowbet = int(input(f'How much would you like to bet? You have {RemainingBalance} left to bet on.\n'))
                         Rows = True
                         Row2 = True
                         print('Your bet has been placed')
                         sectionalbettypecounter += 1
                     elif Rowstype == '7-9':
-                        Rowbet = int(input('How much would you like to bet?\n'))
+                        RemainingBalance = currentbalance - Rowbet - columnbet - Colourbet - OddEvenbet - HighLowbet - Thirdbet - Singlebet - Doublebet - FourWaybet - SixWaybet
+                        Rowbet = int(input(f'How much would you like to bet? You have {RemainingBalance} left to bet on.\n'))
                         Rows = True
                         Row3 = True
                         print('Your bet has been placed')
                         sectionalbettypecounter += 1
                     elif Rowstype == '10-12':
-                        Rowbet = int(input('How much would you like to bet?\n'))
+                        RemainingBalance = currentbalance - Rowbet - columnbet - Colourbet - OddEvenbet - HighLowbet - Thirdbet - Singlebet - Doublebet - FourWaybet - SixWaybet
+                        Rowbet = int(input(f'How much would you like to bet? You have {RemainingBalance} left to bet on.\n'))
                         Rows = True
                         Row4 = True
                         print('Your bet has been placed')
                         sectionalbettypecounter += 1
                     elif Rowstype == '13-15':
-                        Rowbet = int(input('How much would you like to bet?\n'))
+                        RemainingBalance = currentbalance - Rowbet - columnbet - Colourbet - OddEvenbet - HighLowbet - Thirdbet - Singlebet - Doublebet - FourWaybet - SixWaybet
+                        Rowbet = int(input(f'How much would you like to bet? You have {RemainingBalance} left to bet on.\n'))
                         Rows = True
                         Row5 = True
                         print('Your bet has been placed')
                         sectionalbettypecounter += 1
                     elif Rowstype == '16-18':
-                        Rowbet = int(input('How much would you like to bet?\n'))
+                        RemainingBalance = currentbalance - Rowbet - columnbet - Colourbet - OddEvenbet - HighLowbet - Thirdbet - Singlebet - Doublebet - FourWaybet - SixWaybet
+                        Rowbet = int(input(f'How much would you like to bet? You have {RemainingBalance} left to bet on.\n'))
                         Rows = True
                         Row6 = True
                         print('Your bet has been placed')
                         sectionalbettypecounter += 1
                     elif Rowstype == '19-21':
-                        Rowbet = int(input('How much would you like to bet?\n'))
+                        RemainingBalance = currentbalance - Rowbet - columnbet - Colourbet - OddEvenbet - HighLowbet - Thirdbet - Singlebet - Doublebet - FourWaybet - SixWaybet
+                        Rowbet = int(input(f'How much would you like to bet? You have {RemainingBalance} left to bet on.\n'))
                         Rows = True
                         Row7 = True
                         print('Your bet has been placed')
                         sectionalbettypecounter += 1
                     elif Rowstype == '22-24':
-                        Rowbet = int(input('How much would you like to bet?\n'))
+                        RemainingBalance = currentbalance - Rowbet - columnbet - Colourbet - OddEvenbet - HighLowbet - Thirdbet - Singlebet - Doublebet - FourWaybet - SixWaybet
+                        Rowbet = int(input(f'How much would you like to bet? You have {RemainingBalance} left to bet on.\n'))
                         Rows = True
                         Row8 = True
                         print('Your bet has been placed')
                         sectionalbettypecounter += 1
                     elif Rowstype == '25-27':
-                        Rowbet = int(input('How much would you like to bet?\n'))
+                        RemainingBalance = currentbalance - Rowbet - columnbet - Colourbet - OddEvenbet - HighLowbet - Thirdbet - Singlebet - Doublebet - FourWaybet - SixWaybet
+                        Rowbet = int(input(f'How much would you like to bet? You have {RemainingBalance} left to bet on.\n'))
                         Rows = True
                         Row9 = True
                         print('Your bet has been placed')
                         sectionalbettypecounter += 1
                     elif Rowstype == '28-30':
-                        Rowbet = int(input('How much would you like to bet?\n'))
+                        RemainingBalance = currentbalance - Rowbet - columnbet - Colourbet - OddEvenbet - HighLowbet - Thirdbet - Singlebet - Doublebet - FourWaybet - SixWaybet
+                        Rowbet = int(input(f'How much would you like to bet? You have {RemainingBalance} left to bet on.\n'))
                         Rows = True
                         Row10 = True
                         print('Your bet has been placed')
                         sectionalbettypecounter += 1
                     elif Rowstype == '31-33':
-                        Rowbet = int(input('How much would you like to bet?\n'))
+                        RemainingBalance = currentbalance - Rowbet - columnbet - Colourbet - OddEvenbet - HighLowbet - Thirdbet - Singlebet - Doublebet - FourWaybet - SixWaybet
+                        Rowbet = int(input(f'How much would you like to bet? You have {RemainingBalance} left to bet on.\n'))
                         Rows = True
                         Row11 = True
                         print('Your bet has been placed')
                         sectionalbettypecounter += 1
                     elif Rowstype == '34-36':
-                        Rowbet = int(input('How much would you like to bet?\n'))
+                        RemainingBalance = currentbalance - Rowbet - columnbet - Colourbet - OddEvenbet - HighLowbet - Thirdbet - Singlebet - Doublebet - FourWaybet - SixWaybet
+                        Rowbet = int(input(f'How much would you like to bet? You have {RemainingBalance} left to bet on.\n'))
                         Rows = True
                         Row12 = True
                         print('Your bet has been placed')
@@ -200,19 +223,22 @@ while p == True:
                                        'Column 1: (1,4,7,10,13,16,19,22,25,28,31,34) Column 2: (2,5,8,11,14,17,20,23,26,29,32,35) Column 3: (3,6,9,12,15,18,21,24,27,30,33,36)\n'
                                        'Please answer with 1, 2, or 3\n')
                     if columntype == '1':
-                        columnbet = int(input('How much would you like to bet?\n'))
+                        RemainingBalance = currentbalance - Rowbet - columnbet - Colourbet - OddEvenbet - HighLowbet - Thirdbet - Singlebet - Doublebet - FourWaybet - SixWaybet
+                        columnbet = int(input(f'How much would you like to bet? You have {RemainingBalance} left to bet on.\n'))
                         Columns = True
                         column1 = True
                         print('Your bet has been placed')
                         sectionalbettypecounter += 1
                     elif columntype == '2':
-                        columnbet = int(input('How much would you like to bet?\n'))
+                        RemainingBalance = currentbalance - Rowbet - columnbet - Colourbet - OddEvenbet - HighLowbet - Thirdbet - Singlebet - Doublebet - FourWaybet - SixWaybet
+                        columnbet = int(input(f'How much would you like to bet? You have {RemainingBalance} left to bet on.\n'))
                         Columns = True
                         column2 = True
                         print('Your bet has been placed')
                         sectionalbettypecounter += 1
                     elif columntype == '3':
-                        columnbet = int(input('How much would you like to bet?\n'))
+                        RemainingBalance = currentbalance - Rowbet - columnbet - Colourbet - OddEvenbet - HighLowbet - Thirdbet - Singlebet - Doublebet - FourWaybet - SixWaybet
+                        columnbet = int(input(f'How much would you like to bet? You have {RemainingBalance} left to bet on.\n'))
                         Columns = True
                         column3 = True
                         print('Your bet has been placed')
@@ -231,18 +257,21 @@ while p == True:
                     Thirdbet = 0
                     Thirdtype = input('Which third would you like to make a bet on? 1-12, 13-24, or 25-36?\n')
                     if Thirdtype == '1-12':
+                        RemainingBalance = currentbalance - Rowbet - columnbet - Colourbet - OddEvenbet - HighLowbet - Thirdbet - Singlebet - Doublebet - FourWaybet - SixWaybet
                         Thirdbet = int(input('How much would you like to bet\n'))
                         Thirds = True
                         Third1 = True
                         print('Your bet has been placed')
                         sectionalbettypecounter += 1
                     elif Thirdtype == '13-24':
+                        RemainingBalance = currentbalance - Rowbet - columnbet - Colourbet - OddEvenbet - HighLowbet - Thirdbet - Singlebet - Doublebet - FourWaybet - SixWaybet
                         Thirdbet = int(input('How much would you like to bet\n'))
                         Thirds = True
                         Third2 = True
                         print('Your bet has been placed')
                         sectionalbettypecounter += 1
                     elif Thirdtype == '25-36':
+                        RemainingBalance = currentbalance - Rowbet - columnbet - Colourbet - OddEvenbet - HighLowbet - Thirdbet - Singlebet - Doublebet - FourWaybet - SixWaybet
                         Thirdbet = int(input('How much would you like to bet\n'))
                         Thirds = True
                         Third3 = True
@@ -261,13 +290,15 @@ while p == True:
                     OddEvenbet = 0
                     OddEventype = input('Would you like to bet on odd or even? 0 is not included.\n')
                     if OddEventype.lower() == 'odd':
-                        OddEvenbet = int(input('How much would you like to bet?\n'))
+                        RemainingBalance = currentbalance - Rowbet - columnbet - Colourbet - OddEvenbet - HighLowbet - Thirdbet - Singlebet - Doublebet - FourWaybet - SixWaybet
+                        OddEvenbet = int(input(f'How much would you like to bet? You have {RemainingBalance} left to bet on.\n'))
                         OddEven = True
                         Odd = True
                         print('Your bet has been placed')
                         sectionalbettypecounter += 1
                     elif OddEventype.lower() == 'even':
-                        OddEvenbet = int(input('How much would you like to bet?\n'))
+                        RemainingBalance = currentbalance - Rowbet - columnbet - Colourbet - OddEvenbet - HighLowbet - Thirdbet - Singlebet - Doublebet - FourWaybet - SixWaybet
+                        OddEvenbet = int(input(f'How much would you like to bet? You have {RemainingBalance} left to bet on.\n'))
                         OddEven = True
                         Even = True
                         print('Your bet has been placed')
@@ -287,13 +318,15 @@ while p == True:
                                        'Red numbers are: 1, 3, 5, 7, 9, 12, 14, 16, 18, 19, 21, 23, 25, 27, 30, 32, 34, and 36.\n'
                                        'Black numbers are 2, 4, 6, 8, 10, 11, 13, 15, 17, 20, 22, 24, 26, 28, 29, 31, 33, and 35.\n')
                     if Colourtype.lower() == 'red':
-                        Colourbet = int(input('How much would you like to bet?\n'))
+                        RemainingBalance = currentbalance - Rowbet - columnbet - Colourbet - OddEvenbet - HighLowbet - Thirdbet - Singlebet - Doublebet - FourWaybet - SixWaybet
+                        Colourbet = int(input(f'How much would you like to bet? You have {RemainingBalance} left to bet on.\n'))
                         Colours = True
                         Red = True
                         print('Your bet has been placed')
                         sectionalbettypecounter += 1
                     elif Colourtype.lower() == 'black':
-                        Colourbet = int(input('How much would you like to bet?\n'))
+                        RemainingBalance = currentbalance - Rowbet - columnbet - Colourbet - OddEvenbet - HighLowbet - Thirdbet - Singlebet - Doublebet - FourWaybet - SixWaybet
+                        Colourbet = int(input(f'How much would you like to bet? You have {RemainingBalance} left to bet on.\n'))
                         Colours = True
                         Black = True
                         print('Your bet has been placed')
@@ -311,13 +344,15 @@ while p == True:
                     HighLowbet = 0
                     HighLowtype = input('Would you like to bet on Low or High? Low is 1-18, High is 19-36\n')
                     if HighLowtype.lower() == 'low':
-                        HighLowbet = int(input('How much would you like to bet?\n'))
+                        RemainingBalance = currentbalance - Rowbet - columnbet - Colourbet - OddEvenbet - HighLowbet - Thirdbet - Singlebet - Doublebet - FourWaybet - SixWaybet
+                        HighLowbet = int(input(f'How much would you like to bet? You have {RemainingBalance} left to bet on.\n'))
                         HighLow = True
                         Low = True
                         sectionalbettypecounter += 1
                         print('Your bet has been placed')
                     elif HighLowtype.lower() == 'high':
-                        HighLowbet = int(input('How much would you like to bet?\n'))
+                        RemainingBalance = currentbalance - Rowbet - columnbet - Colourbet - OddEvenbet - HighLowbet - Thirdbet - Singlebet - Doublebet - FourWaybet - SixWaybet
+                        HighLowbet = int(input(f'How much would you like to bet? You have {RemainingBalance} left to bet on.\n'))
                         HighLow = True
                         High = True
                         sectionalbettypecounter += 1
@@ -395,222 +430,259 @@ while p == True:
                     Singlebet = 0
                     Singletype = input('From 0-36, on which number would you like to place a bet on?\n')
                     if Singletype == '0':
+                        RemainingBalance = currentbalance - Rowbet - columnbet - Colourbet - OddEvenbet - HighLowbet - Thirdbet - Singlebet - Doublebet - FourWaybet - SixWaybet
                         Singlebet = int(input('How much would you like to bet\n'))
                         Single = True
                         Single0 = True
                         print('Your bet has been placed')
                         numberbettypecounter += 1
                     elif Singletype == '1':
+                        RemainingBalance = currentbalance - Rowbet - columnbet - Colourbet - OddEvenbet - HighLowbet - Thirdbet - Singlebet - Doublebet - FourWaybet - SixWaybet
                         Singlebet = int(input('How much would you like to bet\n'))
                         Single = True
                         Single1 = True
                         print('Your bet has been placed')
                         numberbettypecounter += 1
                     elif Singletype == '2':
+                        RemainingBalance = currentbalance - Rowbet - columnbet - Colourbet - OddEvenbet - HighLowbet - Thirdbet - Singlebet - Doublebet - FourWaybet - SixWaybet
                         Singlebet = int(input('How much would you like to bet\n'))
                         Single = True
                         Single2 = True
                         print('Your bet has been placed')
                         numberbettypecounter += 1
                     elif Singletype == '3':
+                        RemainingBalance = currentbalance - Rowbet - columnbet - Colourbet - OddEvenbet - HighLowbet - Thirdbet - Singlebet - Doublebet - FourWaybet - SixWaybet
                         Singlebet = int(input('How much would you like to bet\n'))
                         Single = True
                         Single3 = True
                         print('Your bet has been placed')
                         numberbettypecounter += 1
                     elif Singletype == '4':
+                        RemainingBalance = currentbalance - Rowbet - columnbet - Colourbet - OddEvenbet - HighLowbet - Thirdbet - Singlebet - Doublebet - FourWaybet - SixWaybet
                         Singlebet = int(input('How much would you like to bet\n'))
                         Single = True
                         Single4 = True
                         print('Your bet has been placed')
                         numberbettypecounter += 1
                     elif Singletype == '5':
+                        RemainingBalance = currentbalance - Rowbet - columnbet - Colourbet - OddEvenbet - HighLowbet - Thirdbet - Singlebet - Doublebet - FourWaybet - SixWaybet
                         Singlebet = int(input('How much would you like to bet\n'))
                         Single = True
                         Single5 = True
                         print('Your bet has been placed')
                         numberbettypecounter += 1
                     elif Singletype == '6':
+                        RemainingBalance = currentbalance - Rowbet - columnbet - Colourbet - OddEvenbet - HighLowbet - Thirdbet - Singlebet - Doublebet - FourWaybet - SixWaybet
                         Singlebet = int(input('How much would you like to bet\n'))
                         Single = True
                         Single6 = True
                         print('Your bet has been placed')
                         numberbettypecounter += 1
                     elif Singletype == '7':
+                        RemainingBalance = currentbalance - Rowbet - columnbet - Colourbet - OddEvenbet - HighLowbet - Thirdbet - Singlebet - Doublebet - FourWaybet - SixWaybet
                         Singlebet = int(input('How much would you like to bet\n'))
                         Single = True
                         Single7 = True
                         print('Your bet has been placed')
                         numberbettypecounter += 1
                     elif Singletype == '8':
+                        RemainingBalance = currentbalance - Rowbet - columnbet - Colourbet - OddEvenbet - HighLowbet - Thirdbet - Singlebet - Doublebet - FourWaybet - SixWaybet
                         Singlebet = int(input('How much would you like to bet\n'))
                         Single = True
                         Single8 = True
                         print('Your bet has been placed')
                         numberbettypecounter += 1
                     elif Singletype == '9':
+                        RemainingBalance = currentbalance - Rowbet - columnbet - Colourbet - OddEvenbet - HighLowbet - Thirdbet - Singlebet - Doublebet - FourWaybet - SixWaybet
                         Singlebet = int(input('How much would you like to bet\n'))
                         Single = True
                         Single9 = True
                         print('Your bet has been placed')
                         numberbettypecounter += 1
                     elif Singletype == '10':
+                        RemainingBalance = currentbalance - Rowbet - columnbet - Colourbet - OddEvenbet - HighLowbet - Thirdbet - Singlebet - Doublebet - FourWaybet - SixWaybet
                         Singlebet = int(input('How much would you like to bet\n'))
                         Single = True
                         Single10 = True
                         print('Your bet has been placed')
                         numberbettypecounter += 1
                     elif Singletype == '11':
+                        RemainingBalance = currentbalance - Rowbet - columnbet - Colourbet - OddEvenbet - HighLowbet - Thirdbet - Singlebet - Doublebet - FourWaybet - SixWaybet
                         Singlebet = int(input('How much would you like to bet\n'))
                         Single = True
                         Single11 = True
                         print('Your bet has been placed')
                         numberbettypecounter += 1
                     elif Singletype == '12':
+                        RemainingBalance = currentbalance - Rowbet - columnbet - Colourbet - OddEvenbet - HighLowbet - Thirdbet - Singlebet - Doublebet - FourWaybet - SixWaybet
                         Singlebet = int(input('How much would you like to bet\n'))
                         Single = True
                         Single12 = True
                         print('Your bet has been placed')
                         numberbettypecounter += 1
                     elif Singletype == '13':
+                        RemainingBalance = currentbalance - Rowbet - columnbet - Colourbet - OddEvenbet - HighLowbet - Thirdbet - Singlebet - Doublebet - FourWaybet - SixWaybet
                         Singlebet = int(input('How much would you like to bet\n'))
                         Single = True
                         Single13 = True
                         print('Your bet has been placed')
                         numberbettypecounter += 1
                     elif Singletype == '14':
+                        RemainingBalance = currentbalance - Rowbet - columnbet - Colourbet - OddEvenbet - HighLowbet - Thirdbet - Singlebet - Doublebet - FourWaybet - SixWaybet
                         Singlebet = int(input('How much would you like to bet\n'))
                         Single = True
                         Single14 = True
                         print('Your bet has been placed')
                         numberbettypecounter += 1
                     elif Singletype == '15':
+                        RemainingBalance = currentbalance - Rowbet - columnbet - Colourbet - OddEvenbet - HighLowbet - Thirdbet - Singlebet - Doublebet - FourWaybet - SixWaybet
                         Singlebet = int(input('How much would you like to bet\n'))
                         Single = True
                         Single15 = True
                         print('Your bet has been placed')
                         numberbettypecounter += 1
                     elif Singletype == '16':
+                        RemainingBalance = currentbalance - Rowbet - columnbet - Colourbet - OddEvenbet - HighLowbet - Thirdbet - Singlebet - Doublebet - FourWaybet - SixWaybet
                         Singlebet = int(input('How much would you like to bet\n'))
                         Single = True
                         Single16 = True
                         print('Your bet has been placed')
                         numberbettypecounter += 1
                     elif Singletype == '17':
+                        RemainingBalance = currentbalance - Rowbet - columnbet - Colourbet - OddEvenbet - HighLowbet - Thirdbet - Singlebet - Doublebet - FourWaybet - SixWaybet
                         Singlebet = int(input('How much would you like to bet\n'))
                         Single = True
                         Single17 = True
                         print('Your bet has been placed')
                         numberbettypecounter += 1
                     elif Singletype == '18':
+                        RemainingBalance = currentbalance - Rowbet - columnbet - Colourbet - OddEvenbet - HighLowbet - Thirdbet - Singlebet - Doublebet - FourWaybet - SixWaybet
                         Singlebet = int(input('How much would you like to bet\n'))
                         Single = True
                         Single18 = True
                         print('Your bet has been placed')
                         numberbettypecounter += 1
                     elif Singletype == '19':
+                        RemainingBalance = currentbalance - Rowbet - columnbet - Colourbet - OddEvenbet - HighLowbet - Thirdbet - Singlebet - Doublebet - FourWaybet - SixWaybet
                         Singlebet = int(input('How much would you like to bet\n'))
                         Single = True
                         Single19 = True
                         print('Your bet has been placed')
                         numberbettypecounter += 1
                     elif Singletype == '20':
+                        RemainingBalance = currentbalance - Rowbet - columnbet - Colourbet - OddEvenbet - HighLowbet - Thirdbet - Singlebet - Doublebet - FourWaybet - SixWaybet
                         Singlebet = int(input('How much would you like to bet\n'))
                         Single = True
                         Single20 = True
                         print('Your bet has been placed')
                         numberbettypecounter += 1
                     elif Singletype == '21':
+                        RemainingBalance = currentbalance - Rowbet - columnbet - Colourbet - OddEvenbet - HighLowbet - Thirdbet - Singlebet - Doublebet - FourWaybet - SixWaybet
                         Singlebet = int(input('How much would you like to bet\n'))
                         Single = True
                         Single21 = True
                         print('Your bet has been placed')
                         numberbettypecounter += 1
                     elif Singletype == '22':
+                        RemainingBalance = currentbalance - Rowbet - columnbet - Colourbet - OddEvenbet - HighLowbet - Thirdbet - Singlebet - Doublebet - FourWaybet - SixWaybet
                         Singlebet = int(input('How much would you like to bet\n'))
                         Single = True
                         Single22 = True
                         print('Your bet has been placed')
                         numberbettypecounter += 1
                     elif Singletype == '23':
+                        RemainingBalance = currentbalance - Rowbet - columnbet - Colourbet - OddEvenbet - HighLowbet - Thirdbet - Singlebet - Doublebet - FourWaybet - SixWaybet
                         Singlebet = int(input('How much would you like to bet\n'))
                         Single = True
                         Single23 = True
                         print('Your bet has been placed')
                         numberbettypecounter += 1
                     elif Singletype == '24':
+                        RemainingBalance = currentbalance - Rowbet - columnbet - Colourbet - OddEvenbet - HighLowbet - Thirdbet - Singlebet - Doublebet - FourWaybet - SixWaybet
                         Singlebet = int(input('How much would you like to bet\n'))
                         Single = True
                         Single24 = True
                         print('Your bet has been placed')
                         numberbettypecounter += 1
                     elif Singletype == '25':
+                        RemainingBalance = currentbalance - Rowbet - columnbet - Colourbet - OddEvenbet - HighLowbet - Thirdbet - Singlebet - Doublebet - FourWaybet - SixWaybet
                         Singlebet = int(input('How much would you like to bet\n'))
                         Single = True
                         Single25 = True
                         print('Your bet has been placed')
                         numberbettypecounter += 1
                     elif Singletype == '26':
+                        RemainingBalance = currentbalance - Rowbet - columnbet - Colourbet - OddEvenbet - HighLowbet - Thirdbet - Singlebet - Doublebet - FourWaybet - SixWaybet
                         Singlebet = int(input('How much would you like to bet\n'))
                         Single = True
                         Single26 = True
                         print('Your bet has been placed')
                         numberbettypecounter += 1
                     elif Singletype == '27':
+                        RemainingBalance = currentbalance - Rowbet - columnbet - Colourbet - OddEvenbet - HighLowbet - Thirdbet - Singlebet - Doublebet - FourWaybet - SixWaybet
                         Singlebet = int(input('How much would you like to bet\n'))
                         Single = True
                         Single27 = True
                         print('Your bet has been placed')
                         numberbettypecounter += 1
                     elif Singletype == '28':
+                        RemainingBalance = currentbalance - Rowbet - columnbet - Colourbet - OddEvenbet - HighLowbet - Thirdbet - Singlebet - Doublebet - FourWaybet - SixWaybet
                         Singlebet = int(input('How much would you like to bet\n'))
                         Single = True
                         Single28 = True
                         print('Your bet has been placed')
                         numberbettypecounter += 1
                     elif Singletype == '29':
+                        RemainingBalance = currentbalance - Rowbet - columnbet - Colourbet - OddEvenbet - HighLowbet - Thirdbet - Singlebet - Doublebet - FourWaybet - SixWaybet
                         Singlebet = int(input('How much would you like to bet\n'))
                         Single = True
                         Single29 = True
                         print('Your bet has been placed')
                         numberbettypecounter += 1
                     elif Singletype == '30':
+                        RemainingBalance = currentbalance - Rowbet - columnbet - Colourbet - OddEvenbet - HighLowbet - Thirdbet - Singlebet - Doublebet - FourWaybet - SixWaybet
                         Singlebet = int(input('How much would you like to bet\n'))
                         Single = True
                         Single30 = True
                         print('Your bet has been placed')
                         numberbettypecounter += 1
                     elif Singletype == '31':
+                        RemainingBalance = currentbalance - Rowbet - columnbet - Colourbet - OddEvenbet - HighLowbet - Thirdbet - Singlebet - Doublebet - FourWaybet - SixWaybet
                         Singlebet = int(input('How much would you like to bet\n'))
                         Single = True
                         Single31 = True
                         print('Your bet has been placed')
                         numberbettypecounter += 1
                     elif Singletype == '32':
+                        RemainingBalance = currentbalance - Rowbet - columnbet - Colourbet - OddEvenbet - HighLowbet - Thirdbet - Singlebet - Doublebet - FourWaybet - SixWaybet
                         Singlebet = int(input('How much would you like to bet\n'))
                         Single = True
                         Single32 = True
                         print('Your bet has been placed')
                         numberbettypecounter += 1
                     elif Singletype == '33':
+                        RemainingBalance = currentbalance - Rowbet - columnbet - Colourbet - OddEvenbet - HighLowbet - Thirdbet - Singlebet - Doublebet - FourWaybet - SixWaybet
                         Singlebet = int(input('How much would you like to bet\n'))
                         Single = True
                         Single33 = True
                         print('Your bet has been placed')
                         numberbettypecounter += 1
                     elif Singletype == '34':
+                        RemainingBalance = currentbalance - Rowbet - columnbet - Colourbet - OddEvenbet - HighLowbet - Thirdbet - Singlebet - Doublebet - FourWaybet - SixWaybet
                         Singlebet = int(input('How much would you like to bet\n'))
                         Single = True
                         Single34 = True
                         print('Your bet has been placed')
                         numberbettypecounter += 1
                     elif Singletype == '35':
+                        RemainingBalance = currentbalance - Rowbet - columnbet - Colourbet - OddEvenbet - HighLowbet - Thirdbet - Singlebet - Doublebet - FourWaybet - SixWaybet
                         Singlebet = int(input('How much would you like to bet\n'))
                         Single = True
                         Single35 = True
                         print('Your bet has been placed')
                         numberbettypecounter += 1
                     elif Singletype == '36':
+                        RemainingBalance = currentbalance - Rowbet - columnbet - Colourbet - OddEvenbet - HighLowbet - Thirdbet - Singlebet - Doublebet - FourWaybet - SixWaybet
                         Singlebet = int(input('How much would you like to bet\n'))
                         Single = True
                         Single36 = True
@@ -691,217 +763,253 @@ while p == True:
                                                '0&1, 0&2, 0&3, 1&4, 2&5, 3&6, 4&7, 5&8, 6&9, 7&10, 8&11, 9&12, 10&13, 11&14, 12&15, 13&16, 14&17, 15&18, 16&19, 17&20, 18&21\n'
                                                '19&22, 20&23, 21&24, 22&25, 23&26, 24&27, 25&28, 26&29, 27&30, 28&31, 29&32, 30&33, 31&34, 32&35, 33&36\n')
                         if DoubleVertical == '0&1':
-                            Doublebet = int(input('How much would you like to bet?\n'))
+                            RemainingBalance = currentbalance - Rowbet - columnbet - Colourbet - OddEvenbet - HighLowbet - Thirdbet - Singlebet - Doublebet - FourWaybet - SixWaybet
+                            Doublebet = int(input(f'How much would you like to bet? You have {RemainingBalance} left to bet on.\n'))
                             Double = True
                             Vertical1 = True
                             print('Your bet has been placed')
                             numberbettypecounter += 1
                         elif DoubleVertical == '0&2':
-                            Doublebet = int(input('How much would you like to bet?\n'))
+                            RemainingBalance = currentbalance - Rowbet - columnbet - Colourbet - OddEvenbet - HighLowbet - Thirdbet - Singlebet - Doublebet - FourWaybet - SixWaybet
+                            Doublebet = int(input(f'How much would you like to bet? You have {RemainingBalance} left to bet on.\n'))
                             Double = True
                             Vertical2 = True
                             print('Your bet has been placed')
                             numberbettypecounter += 1
                         elif DoubleVertical == '0&3':
-                            Doublebet = int(input('How much would you like to bet?\n'))
+                            RemainingBalance = currentbalance - Rowbet - columnbet - Colourbet - OddEvenbet - HighLowbet - Thirdbet - Singlebet - Doublebet - FourWaybet - SixWaybet
+                            Doublebet = int(input(f'How much would you like to bet? You have {RemainingBalance} left to bet on.\n'))
                             Double = True
                             Vertical3 = True
                             print('Your bet has been placed')
                             numberbettypecounter += 1
                         elif DoubleVertical == '1&4':
-                            Doublebet = int(input('How much would you like to bet?\n'))
+                            RemainingBalance = currentbalance - Rowbet - columnbet - Colourbet - OddEvenbet - HighLowbet - Thirdbet - Singlebet - Doublebet - FourWaybet - SixWaybet
+                            Doublebet = int(input(f'How much would you like to bet? You have {RemainingBalance} left to bet on.\n'))
                             Double = True
                             Vertical4 = True
                             print('Your bet has been placed')
                             numberbettypecounter += 1
                         elif DoubleVertical == '2&5':
-                            Doublebet = int(input('How much would you like to bet?\n'))
+                            RemainingBalance = currentbalance - Rowbet - columnbet - Colourbet - OddEvenbet - HighLowbet - Thirdbet - Singlebet - Doublebet - FourWaybet - SixWaybet
+                            Doublebet = int(input(f'How much would you like to bet? You have {RemainingBalance} left to bet on.\n'))
                             Double = True
                             Vertical5 = True
                             print('Your bet has been placed')
                             numberbettypecounter += 1
                         elif DoubleVertical == '3&6':
-                            Doublebet = int(input('How much would you like to bet?\n'))
+                            RemainingBalance = currentbalance - Rowbet - columnbet - Colourbet - OddEvenbet - HighLowbet - Thirdbet - Singlebet - Doublebet - FourWaybet - SixWaybet
+                            Doublebet = int(input(f'How much would you like to bet? You have {RemainingBalance} left to bet on.\n'))
                             Double = True
                             Vertical6 = True
                             print('Your bet has been placed')
                             numberbettypecounter += 1
                         elif DoubleVertical == '4&7':
-                            Doublebet = int(input('How much would you like to bet?\n'))
+                            RemainingBalance = currentbalance - Rowbet - columnbet - Colourbet - OddEvenbet - HighLowbet - Thirdbet - Singlebet - Doublebet - FourWaybet - SixWaybet
+                            Doublebet = int(input(f'How much would you like to bet? You have {RemainingBalance} left to bet on.\n'))
                             Double = True
                             Vertical7 = True
                             print('Your bet has been placed')
                             numberbettypecounter += 1
                         elif DoubleVertical == '5&8':
-                            Doublebet = int(input('How much would you like to bet?\n'))
+                            RemainingBalance = currentbalance - Rowbet - columnbet - Colourbet - OddEvenbet - HighLowbet - Thirdbet - Singlebet - Doublebet - FourWaybet - SixWaybet
+                            Doublebet = int(input(f'How much would you like to bet? You have {RemainingBalance} left to bet on.\n'))
                             Double = True
                             Vertical8 = True
                             print('Your bet has been placed')
                             numberbettypecounter += 1
                         elif DoubleVertical == '6&9':
-                            Doublebet = int(input('How much would you like to bet?\n'))
+                            RemainingBalance = currentbalance - Rowbet - columnbet - Colourbet - OddEvenbet - HighLowbet - Thirdbet - Singlebet - Doublebet - FourWaybet - SixWaybet
+                            Doublebet = int(input(f'How much would you like to bet? You have {RemainingBalance} left to bet on.\n'))
                             Double = True
                             Vertical9 = True
                             print('Your bet has been placed')
                             numberbettypecounter += 1
                         elif DoubleVertical == '7&10':
-                            Doublebet = int(input('How much would you like to bet?\n'))
+                            RemainingBalance = currentbalance - Rowbet - columnbet - Colourbet - OddEvenbet - HighLowbet - Thirdbet - Singlebet - Doublebet - FourWaybet - SixWaybet
+                            Doublebet = int(input(f'How much would you like to bet? You have {RemainingBalance} left to bet on.\n'))
                             Double = True
                             Vertical10 = True
                             print('Your bet has been placed')
                             numberbettypecounter += 1
                         elif DoubleVertical == '8&11':
-                            Doublebet = int(input('How much would you like to bet?\n'))
+                            RemainingBalance = currentbalance - Rowbet - columnbet - Colourbet - OddEvenbet - HighLowbet - Thirdbet - Singlebet - Doublebet - FourWaybet - SixWaybet
+                            Doublebet = int(input(f'How much would you like to bet? You have {RemainingBalance} left to bet on.\n'))
                             Double = True
                             Vertical11 = True
                             print('Your bet has been placed')
                             numberbettypecounter += 1
                         elif DoubleVertical == '9&12':
-                            Doublebet = int(input('How much would you like to bet?\n'))
+                            RemainingBalance = currentbalance - Rowbet - columnbet - Colourbet - OddEvenbet - HighLowbet - Thirdbet - Singlebet - Doublebet - FourWaybet - SixWaybet
+                            Doublebet = int(input(f'How much would you like to bet? You have {RemainingBalance} left to bet on.\n'))
                             Double = True
                             Vertical12 = True
                             print('Your bet has been placed')
                             numberbettypecounter += 1
                         elif DoubleVertical == '10&13':
-                            Doublebet = int(input('How much would you like to bet?\n'))
+                            RemainingBalance = currentbalance - Rowbet - columnbet - Colourbet - OddEvenbet - HighLowbet - Thirdbet - Singlebet - Doublebet - FourWaybet - SixWaybet
+                            Doublebet = int(input(f'How much would you like to bet? You have {RemainingBalance} left to bet on.\n'))
                             Double = True
                             Vertical13 = True
                             print('Your bet has been placed')
                             numberbettypecounter += 1
                         elif DoubleVertical == '11&14':
-                            Doublebet = int(input('How much would you like to bet?\n'))
+                            RemainingBalance = currentbalance - Rowbet - columnbet - Colourbet - OddEvenbet - HighLowbet - Thirdbet - Singlebet - Doublebet - FourWaybet - SixWaybet
+                            Doublebet = int(input(f'How much would you like to bet? You have {RemainingBalance} left to bet on.\n'))
                             Double = True
                             Vertical14 = True
                             print('Your bet has been placed')
                             numberbettypecounter += 1
                         elif DoubleVertical == '12&15':
-                            Doublebet = int(input('How much would you like to bet?\n'))
+                            RemainingBalance = currentbalance - Rowbet - columnbet - Colourbet - OddEvenbet - HighLowbet - Thirdbet - Singlebet - Doublebet - FourWaybet - SixWaybet
+                            Doublebet = int(input(f'How much would you like to bet? You have {RemainingBalance} left to bet on.\n'))
                             Double = True
                             Vertical15 = True
                             print('Your bet has been placed')
                             numberbettypecounter += 1
                         elif DoubleVertical == '13&16':
-                            Doublebet = int(input('How much would you like to bet?\n'))
+                            RemainingBalance = currentbalance - Rowbet - columnbet - Colourbet - OddEvenbet - HighLowbet - Thirdbet - Singlebet - Doublebet - FourWaybet - SixWaybet
+                            Doublebet = int(input(f'How much would you like to bet? You have {RemainingBalance} left to bet on.\n'))
                             Double = True
                             Vertical16 = True
                             print('Your bet has been placed')
                             numberbettypecounter += 1
                         elif DoubleVertical == '14&17':
-                            Doublebet = int(input('How much would you like to bet?\n'))
+                            RemainingBalance = currentbalance - Rowbet - columnbet - Colourbet - OddEvenbet - HighLowbet - Thirdbet - Singlebet - Doublebet - FourWaybet - SixWaybet
+                            Doublebet = int(input(f'How much would you like to bet? You have {RemainingBalance} left to bet on.\n'))
                             Double = True
                             Vertical17 = True
                             print('Your bet has been placed')
                             numberbettypecounter += 1
                         elif DoubleVertical == '15&18':
-                            Doublebet = int(input('How much would you like to bet?\n'))
+                            RemainingBalance = currentbalance - Rowbet - columnbet - Colourbet - OddEvenbet - HighLowbet - Thirdbet - Singlebet - Doublebet - FourWaybet - SixWaybet
+                            Doublebet = int(input(f'How much would you like to bet? You have {RemainingBalance} left to bet on.\n'))
                             Double = True
                             Vertical18 = True
                             print('Your bet has been placed')
                             numberbettypecounter += 1
                         elif DoubleVertical == '16&19':
-                            Doublebet = int(input('How much would you like to bet?\n'))
+                            RemainingBalance = currentbalance - Rowbet - columnbet - Colourbet - OddEvenbet - HighLowbet - Thirdbet - Singlebet - Doublebet - FourWaybet - SixWaybet
+                            Doublebet = int(input(f'How much would you like to bet? You have {RemainingBalance} left to bet on.\n'))
                             Double = True
                             Vertical19 = True
                             print('Your bet has been placed')
                             numberbettypecounter += 1
                         elif DoubleVertical == '17&20':
-                            Doublebet = int(input('How much would you like to bet?\n'))
+                            RemainingBalance = currentbalance - Rowbet - columnbet - Colourbet - OddEvenbet - HighLowbet - Thirdbet - Singlebet - Doublebet - FourWaybet - SixWaybet
+                            Doublebet = int(input(f'How much would you like to bet? You have {RemainingBalance} left to bet on.\n'))
                             Double = True
                             Vertical20 = True
                             print('Your bet has been placed')
                             numberbettypecounter += 1
                         elif DoubleVertical == '18&21':
-                            Doublebet = int(input('How much would you like to bet?\n'))
+                            RemainingBalance = currentbalance - Rowbet - columnbet - Colourbet - OddEvenbet - HighLowbet - Thirdbet - Singlebet - Doublebet - FourWaybet - SixWaybet
+                            Doublebet = int(input(f'How much would you like to bet? You have {RemainingBalance} left to bet on.\n'))
                             Double = True
                             Vertical21 = True
                             print('Your bet has been placed')
                             numberbettypecounter += 1
                         elif DoubleVertical == '19&22':
-                            Doublebet = int(input('How much would you like to bet?\n'))
+                            RemainingBalance = currentbalance - Rowbet - columnbet - Colourbet - OddEvenbet - HighLowbet - Thirdbet - Singlebet - Doublebet - FourWaybet - SixWaybet
+                            Doublebet = int(input(f'How much would you like to bet? You have {RemainingBalance} left to bet on.\n'))
                             Double = True
                             Vertical22 = True
                             print('Your bet has been placed')
                             numberbettypecounter += 1
                         elif DoubleVertical == '20&23':
-                            Doublebet = int(input('How much would you like to bet?\n'))
+                            RemainingBalance = currentbalance - Rowbet - columnbet - Colourbet - OddEvenbet - HighLowbet - Thirdbet - Singlebet - Doublebet - FourWaybet - SixWaybet
+                            Doublebet = int(input(f'How much would you like to bet? You have {RemainingBalance} left to bet on.\n'))
                             Double = True
                             Vertical23 = True
                             print('Your bet has been placed')
                             numberbettypecounter += 1
                         elif DoubleVertical == '21&24':
-                            Doublebet = int(input('How much would you like to bet?\n'))
+                            RemainingBalance = currentbalance - Rowbet - columnbet - Colourbet - OddEvenbet - HighLowbet - Thirdbet - Singlebet - Doublebet - FourWaybet - SixWaybet
+                            Doublebet = int(input(f'How much would you like to bet? You have {RemainingBalance} left to bet on.\n'))
                             Double = True
                             Vertical24 = True
                             print('Your bet has been placed')
                             numberbettypecounter += 1
                         elif DoubleVertical == '22&25':
-                            Doublebet = int(input('How much would you like to bet?\n'))
+                            RemainingBalance = currentbalance - Rowbet - columnbet - Colourbet - OddEvenbet - HighLowbet - Thirdbet - Singlebet - Doublebet - FourWaybet - SixWaybet
+                            Doublebet = int(input(f'How much would you like to bet? You have {RemainingBalance} left to bet on.\n'))
                             Double = True
                             Vertical25 = True
                             print('Your bet has been placed')
                             numberbettypecounter += 1
                         elif DoubleVertical == '23&26':
-                            Doublebet = int(input('How much would you like to bet?\n'))
+                            RemainingBalance = currentbalance - Rowbet - columnbet - Colourbet - OddEvenbet - HighLowbet - Thirdbet - Singlebet - Doublebet - FourWaybet - SixWaybet
+                            Doublebet = int(input(f'How much would you like to bet? You have {RemainingBalance} left to bet on.\n'))
                             Double = True
                             Vertical26 = True
                             print('Your bet has been placed')
                             numberbettypecounter += 1
                         elif DoubleVertical == '24&27':
-                            Doublebet = int(input('How much would you like to bet?\n'))
+                            RemainingBalance = currentbalance - Rowbet - columnbet - Colourbet - OddEvenbet - HighLowbet - Thirdbet - Singlebet - Doublebet - FourWaybet - SixWaybet
+                            Doublebet = int(input(f'How much would you like to bet? You have {RemainingBalance} left to bet on.\n'))
                             Double = True
                             Vertical27 = True
                             print('Your bet has been placed')
                             numberbettypecounter += 1
                         elif DoubleVertical == '25&28':
-                            Doublebet = int(input('How much would you like to bet?\n'))
+                            RemainingBalance = currentbalance - Rowbet - columnbet - Colourbet - OddEvenbet - HighLowbet - Thirdbet - Singlebet - Doublebet - FourWaybet - SixWaybet
+                            Doublebet = int(input(f'How much would you like to bet? You have {RemainingBalance} left to bet on.\n'))
                             Double = True
                             Vertical28 = True
                             print('Your bet has been placed')
                             numberbettypecounter += 1
                         elif DoubleVertical == '26&29':
-                            Doublebet = int(input('How much would you like to bet?\n'))
+                            RemainingBalance = currentbalance - Rowbet - columnbet - Colourbet - OddEvenbet - HighLowbet - Thirdbet - Singlebet - Doublebet - FourWaybet - SixWaybet
+                            Doublebet = int(input(f'How much would you like to bet? You have {RemainingBalance} left to bet on.\n'))
                             Double = True
                             Vertical29 = True
                             print('Your bet has been placed')
                             numberbettypecounter += 1
                         elif DoubleVertical == '27&30':
-                            Doublebet = int(input('How much would you like to bet?\n'))
+                            RemainingBalance = currentbalance - Rowbet - columnbet - Colourbet - OddEvenbet - HighLowbet - Thirdbet - Singlebet - Doublebet - FourWaybet - SixWaybet
+                            Doublebet = int(input(f'How much would you like to bet? You have {RemainingBalance} left to bet on.\n'))
                             Double = True
                             Vertical30 = True
                             print('Your bet has been placed')
                             numberbettypecounter += 1
                         elif DoubleVertical == '28&31':
-                            Doublebet = int(input('How much would you like to bet?\n'))
+                            RemainingBalance = currentbalance - Rowbet - columnbet - Colourbet - OddEvenbet - HighLowbet - Thirdbet - Singlebet - Doublebet - FourWaybet - SixWaybet
+                            Doublebet = int(input(f'How much would you like to bet? You have {RemainingBalance} left to bet on.\n'))
                             Double = True
                             Vertical31 = True
                             print('Your bet has been placed')
                             numberbettypecounter += 1
                         elif DoubleVertical == '29&32':
-                            Doublebet = int(input('How much would you like to bet?\n'))
+                            RemainingBalance = currentbalance - Rowbet - columnbet - Colourbet - OddEvenbet - HighLowbet - Thirdbet - Singlebet - Doublebet - FourWaybet - SixWaybet
+                            Doublebet = int(input(f'How much would you like to bet? You have {RemainingBalance} left to bet on.\n'))
                             Double = True
                             Vertical32 = True
                             print('Your bet has been placed')
                             numberbettypecounter += 1
                         elif DoubleVertical == '30&33':
-                            Doublebet = int(input('How much would you like to bet?\n'))
+                            RemainingBalance = currentbalance - Rowbet - columnbet - Colourbet - OddEvenbet - HighLowbet - Thirdbet - Singlebet - Doublebet - FourWaybet - SixWaybet
+                            Doublebet = int(input(f'How much would you like to bet? You have {RemainingBalance} left to bet on.\n'))
                             Double = True
                             Vertical33 = True
                             print('Your bet has been placed')
                             numberbettypecounter += 1
                         elif DoubleVertical == '31&34':
-                            Doublebet = int(input('How much would you like to bet?\n'))
+                            RemainingBalance = currentbalance - Rowbet - columnbet - Colourbet - OddEvenbet - HighLowbet - Thirdbet - Singlebet - Doublebet - FourWaybet - SixWaybet
+                            Doublebet = int(input(f'How much would you like to bet? You have {RemainingBalance} left to bet on.\n'))
                             Double = True
                             Vertical34 = True
                             print('Your bet has been placed')
                             numberbettypecounter += 1
                         elif DoubleVertical == '32&35':
-                            Doublebet = int(input('How much would you like to bet?\n'))
+                            RemainingBalance = currentbalance - Rowbet - columnbet - Colourbet - OddEvenbet - HighLowbet - Thirdbet - Singlebet - Doublebet - FourWaybet - SixWaybet
+                            Doublebet = int(input(f'How much would you like to bet? You have {RemainingBalance} left to bet on.\n'))
                             Double = True
                             Vertical35 = True
                             print('Your bet has been placed')
                             numberbettypecounter += 1
                         elif DoubleVertical == '33&36':
-                            Doublebet = int(input('How much would you like to bet?\n'))
+                            RemainingBalance = currentbalance - Rowbet - columnbet - Colourbet - OddEvenbet - HighLowbet - Thirdbet - Singlebet - Doublebet - FourWaybet - SixWaybet
+                            Doublebet = int(input(f'How much would you like to bet? You have {RemainingBalance} left to bet on.\n'))
                             Double = True
                             Vertical36 = True
                             print('Your bet has been placed')
@@ -916,145 +1024,169 @@ while p == True:
                                                  '1&2, 2&3, 4&5, 5&6, 7&8, 8&9, 10&11, 11&12, 13&14, 14&15, 16&17, 17&18, 19&20, 20&21\n'
                                                  '22&23, 23&24, 25&26, 26&27, 28&29, 29&30, 31&32, 32&33, 34&35, 35&36\n')
                         if DoubleHorizontal == '1&2':
-                            Doublebet = int(input('How much would you like to bet?\n'))
+                            RemainingBalance = currentbalance - Rowbet - columnbet - Colourbet - OddEvenbet - HighLowbet - Thirdbet - Singlebet - Doublebet - FourWaybet - SixWaybet
+                            Doublebet = int(input(f'How much would you like to bet? You have {RemainingBalance} left to bet on.\n'))
                             Double = True
                             Horizontal1 = True
                             print('Your bet has been placed')
                             numberbettypecounter += 1
                         elif DoubleHorizontal == '2&3':
-                            Doublebet = int(input('How much would you like to bet?\n'))
+                            RemainingBalance = currentbalance - Rowbet - columnbet - Colourbet - OddEvenbet - HighLowbet - Thirdbet - Singlebet - Doublebet - FourWaybet - SixWaybet
+                            Doublebet = int(input(f'How much would you like to bet? You have {RemainingBalance} left to bet on.\n'))
                             Double = True
                             Horizontal2 = True
                             print('Your bet has been placed')
                             numberbettypecounter += 1
                         elif DoubleHorizontal == '4&5':
-                            Doublebet = int(input('How much would you like to bet?\n'))
+                            RemainingBalance = currentbalance - Rowbet - columnbet - Colourbet - OddEvenbet - HighLowbet - Thirdbet - Singlebet - Doublebet - FourWaybet - SixWaybet
+                            Doublebet = int(input(f'How much would you like to bet? You have {RemainingBalance} left to bet on.\n'))
                             Double = True
                             Horizontal3 = True
                             print('Your bet has been placed')
                             numberbettypecounter += 1
                         elif DoubleHorizontal == '5&6':
-                            Doublebet = int(input('How much would you like to bet?\n'))
+                            RemainingBalance = currentbalance - Rowbet - columnbet - Colourbet - OddEvenbet - HighLowbet - Thirdbet - Singlebet - Doublebet - FourWaybet - SixWaybet
+                            Doublebet = int(input(f'How much would you like to bet? You have {RemainingBalance} left to bet on.\n'))
                             Double = True
                             Horizontal4 = True
                             print('Your bet has been placed')
                             numberbettypecounter += 1
                         elif DoubleHorizontal == '7&8':
-                            Doublebet = int(input('How much would you like to bet?\n'))
+                            RemainingBalance = currentbalance - Rowbet - columnbet - Colourbet - OddEvenbet - HighLowbet - Thirdbet - Singlebet - Doublebet - FourWaybet - SixWaybet
+                            Doublebet = int(input(f'How much would you like to bet? You have {RemainingBalance} left to bet on.\n'))
                             Double = True
                             Horizontal5 = True
                             print('Your bet has been placed')
                             numberbettypecounter += 1
                         elif DoubleHorizontal == '8&9':
-                            Doublebet = int(input('How much would you like to bet?\n'))
+                            RemainingBalance = currentbalance - Rowbet - columnbet - Colourbet - OddEvenbet - HighLowbet - Thirdbet - Singlebet - Doublebet - FourWaybet - SixWaybet
+                            Doublebet = int(input(f'How much would you like to bet? You have {RemainingBalance} left to bet on.\n'))
                             Double = True
                             Horizontal6 = True
                             print('Your bet has been placed')
                             numberbettypecounter += 1
                         elif DoubleHorizontal == '10&11':
-                            Doublebet = int(input('How much would you like to bet?\n'))
+                            RemainingBalance = currentbalance - Rowbet - columnbet - Colourbet - OddEvenbet - HighLowbet - Thirdbet - Singlebet - Doublebet - FourWaybet - SixWaybet
+                            Doublebet = int(input(f'How much would you like to bet? You have {RemainingBalance} left to bet on.\n'))
                             Double = True
                             Horizontal7 = True
                             print('Your bet has been placed')
                             numberbettypecounter += 1
                         elif DoubleHorizontal == '11&12':
-                            Doublebet = int(input('How much would you like to bet?\n'))
+                            RemainingBalance = currentbalance - Rowbet - columnbet - Colourbet - OddEvenbet - HighLowbet - Thirdbet - Singlebet - Doublebet - FourWaybet - SixWaybet
+                            Doublebet = int(input(f'How much would you like to bet? You have {RemainingBalance} left to bet on.\n'))
                             Double = True
                             Horizontal8 = True
                             print('Your bet has been placed')
                             numberbettypecounter += 1
                         elif DoubleHorizontal == '13&14':
-                            Doublebet = int(input('How much would you like to bet?\n'))
+                            RemainingBalance = currentbalance - Rowbet - columnbet - Colourbet - OddEvenbet - HighLowbet - Thirdbet - Singlebet - Doublebet - FourWaybet - SixWaybet
+                            Doublebet = int(input(f'How much would you like to bet? You have {RemainingBalance} left to bet on.\n'))
                             Double = True
                             Horizontal9 = True
                             print('Your bet has been placed')
                             numberbettypecounter += 1
                         elif DoubleHorizontal == '14&15':
-                            Doublebet = int(input('How much would you like to bet?\n'))
+                            RemainingBalance = currentbalance - Rowbet - columnbet - Colourbet - OddEvenbet - HighLowbet - Thirdbet - Singlebet - Doublebet - FourWaybet - SixWaybet
+                            Doublebet = int(input(f'How much would you like to bet? You have {RemainingBalance} left to bet on.\n'))
                             Double = True
                             Horizontal10 = True
                             print('Your bet has been placed')
                             numberbettypecounter += 1
                         elif DoubleHorizontal == '16&17':
-                            Doublebet = int(input('How much would you like to bet?\n'))
+                            RemainingBalance = currentbalance - Rowbet - columnbet - Colourbet - OddEvenbet - HighLowbet - Thirdbet - Singlebet - Doublebet - FourWaybet - SixWaybet
+                            Doublebet = int(input(f'How much would you like to bet? You have {RemainingBalance} left to bet on.\n'))
                             Double = True
                             Horizontal11 = True
                             print('Your bet has been placed')
                             numberbettypecounter += 1
                         elif DoubleHorizontal == '17&18':
-                            Doublebet = int(input('How much would you like to bet?\n'))
+                            RemainingBalance = currentbalance - Rowbet - columnbet - Colourbet - OddEvenbet - HighLowbet - Thirdbet - Singlebet - Doublebet - FourWaybet - SixWaybet
+                            Doublebet = int(input(f'How much would you like to bet? You have {RemainingBalance} left to bet on.\n'))
                             Double = True
                             Horizontal12 = True
                             print('Your bet has been placed')
                             numberbettypecounter += 1
+                            RemainingBalance = currentbalance - Rowbet - columnbet - Colourbet - OddEvenbet - HighLowbet - Thirdbet - Singlebet - Doublebet - FourWaybet - SixWaybet
                         elif DoubleHorizontal == '19&20':
-                            Doublebet = int(input('How much would you like to bet?\n'))
+                            Doublebet = int(input(f'How much would you like to bet? You have {RemainingBalance} left to bet on.\n'))
                             Double = True
                             Horizontal13 = True
                             print('Your bet has been placed')
                             numberbettypecounter += 1
                         elif DoubleHorizontal == '20&21':
-                            Doublebet = int(input('How much would you like to bet?\n'))
+                            RemainingBalance = currentbalance - Rowbet - columnbet - Colourbet - OddEvenbet - HighLowbet - Thirdbet - Singlebet - Doublebet - FourWaybet - SixWaybet
+                            Doublebet = int(input(f'How much would you like to bet? You have {RemainingBalance} left to bet on.\n'))
                             Double = True
                             Horizontal14 = True
                             print('Your bet has been placed')
                             numberbettypecounter += 1
                         elif DoubleHorizontal == '22&23':
-                            Doublebet = int(input('How much would you like to bet?\n'))
+                            RemainingBalance = currentbalance - Rowbet - columnbet - Colourbet - OddEvenbet - HighLowbet - Thirdbet - Singlebet - Doublebet - FourWaybet - SixWaybet
+                            Doublebet = int(input(f'How much would you like to bet? You have {RemainingBalance} left to bet on.\n'))
                             Double = True
                             Horizontal15 = True
                             print('Your bet has been placed')
                             numberbettypecounter += 1
                         elif DoubleHorizontal == '23&24':
-                            Doublebet = int(input('How much would you like to bet?\n'))
+                            RemainingBalance = currentbalance - Rowbet - columnbet - Colourbet - OddEvenbet - HighLowbet - Thirdbet - Singlebet - Doublebet - FourWaybet - SixWaybet
+                            Doublebet = int(input(f'How much would you like to bet? You have {RemainingBalance} left to bet on.\n'))
                             Double = True
                             Horizontal16 = True
                             print('Your bet has been placed')
                             numberbettypecounter += 1
                         elif DoubleHorizontal == '25&26':
-                            Doublebet = int(input('How much would you like to bet?\n'))
+                            RemainingBalance = currentbalance - Rowbet - columnbet - Colourbet - OddEvenbet - HighLowbet - Thirdbet - Singlebet - Doublebet - FourWaybet - SixWaybet
+                            Doublebet = int(input(f'How much would you like to bet? You have {RemainingBalance} left to bet on.\n'))
                             Double = True
                             Horizontal17 = True
                             print('Your bet has been placed')
                             numberbettypecounter += 1
                         elif DoubleHorizontal == '26&27':
-                            Doublebet = int(input('How much would you like to bet?\n'))
+                            RemainingBalance = currentbalance - Rowbet - columnbet - Colourbet - OddEvenbet - HighLowbet - Thirdbet - Singlebet - Doublebet - FourWaybet - SixWaybet
+                            Doublebet = int(input(f'How much would you like to bet? You have {RemainingBalance} left to bet on.\n'))
                             Double = True
                             Horizontal18 = True
                             print('Your bet has been placed')
                             numberbettypecounter += 1
                         elif DoubleHorizontal == '28&29':
-                            Doublebet = int(input('How much would you like to bet?\n'))
+                            RemainingBalance = currentbalance - Rowbet - columnbet - Colourbet - OddEvenbet - HighLowbet - Thirdbet - Singlebet - Doublebet - FourWaybet - SixWaybet
+                            Doublebet = int(input(f'How much would you like to bet? You have {RemainingBalance} left to bet on.\n'))
                             Double = True
                             Horizontal19 = True
                             print('Your bet has been placed')
                             numberbettypecounter += 1
                         elif DoubleHorizontal == '29&30':
-                            Doublebet = int(input('How much would you like to bet?\n'))
+                            RemainingBalance = currentbalance - Rowbet - columnbet - Colourbet - OddEvenbet - HighLowbet - Thirdbet - Singlebet - Doublebet - FourWaybet - SixWaybet
+                            Doublebet = int(input(f'How much would you like to bet? You have {RemainingBalance} left to bet on.\n'))
                             Double = True
                             Horizontal20 = True
                             print('Your bet has been placed')
                             numberbettypecounter += 1
                         elif DoubleHorizontal == '31&32':
-                            Doublebet = int(input('How much would you like to bet?\n'))
+                            RemainingBalance = currentbalance - Rowbet - columnbet - Colourbet - OddEvenbet - HighLowbet - Thirdbet - Singlebet - Doublebet - FourWaybet - SixWaybet
+                            Doublebet = int(input(f'How much would you like to bet? You have {RemainingBalance} left to bet on.\n'))
                             Double = True
                             Horizontal21 = True
                             print('Your bet has been placed')
                             numberbettypecounter += 1
                         elif DoubleHorizontal == '32&33':
-                            Doublebet = int(input('How much would you like to bet?\n'))
+                            RemainingBalance = currentbalance - Rowbet - columnbet - Colourbet - OddEvenbet - HighLowbet - Thirdbet - Singlebet - Doublebet - FourWaybet - SixWaybet
+                            Doublebet = int(input(f'How much would you like to bet? You have {RemainingBalance} left to bet on.\n'))
                             Double = True
                             Horizontal22 = True
                             print('Your bet has been placed')
                             numberbettypecounter += 1
                         elif DoubleHorizontal == '34&35':
-                            Doublebet = int(input('How much would you like to bet?\n'))
+                            RemainingBalance = currentbalance - Rowbet - columnbet - Colourbet - OddEvenbet - HighLowbet - Thirdbet - Singlebet - Doublebet - FourWaybet - SixWaybet
+                            Doublebet = int(input(f'How much would you like to bet? You have {RemainingBalance} left to bet on.\n'))
                             Double = True
                             Horizontal23 = True
                             print('Your bet has been placed')
                             numberbettypecounter += 1
                         elif DoubleHorizontal == '35&36':
-                            Doublebet = int(input('How much would you like to bet?\n'))
+                            RemainingBalance = currentbalance - Rowbet - columnbet - Colourbet - OddEvenbet - HighLowbet - Thirdbet - Singlebet - Doublebet - FourWaybet - SixWaybet
+                            Doublebet = int(input(f'How much would you like to bet? You have {RemainingBalance} left to bet on.\n'))
                             Double = True
                             Horizontal24 = True
                             print('Your bet has been placed')
@@ -1099,133 +1231,155 @@ while p == True:
                                         '1,2,4,5    2,3,5,6    4,5,7,8    5,6,8,9    7,8,10,11    8,9,11,12    10,11,13,14    11,12,14,15    13,14,16,17    14,15,17,18   16,17,19,20    17,18,20,21\n'
                                         '19,20,22,23    20,21,23,24    22,23,25,26    23,24,26,27    25,26,28,29    26,27,29,30    28,29,31,32    29,30,32,33    31,32,34,35    32,33,35,36\n')
                     if Fourbettype == '1,2,4,5':
-                        FourWaybet = int(input('How much would you like to bet?\n'))
+                        RemainingBalance = currentbalance - Rowbet - columnbet - Colourbet - OddEvenbet - HighLowbet - Thirdbet - Singlebet - Doublebet - FourWaybet - SixWaybet
+                        FourWaybet = int(input(f'How much would you like to bet? You have {RemainingBalance} left to bet on.\n'))
                         FourWay = True
                         FourWay1 = True
                         print('Your bet has been placed.')
                         numberbettypecounter += 1
                     elif Fourbettype == '2,3,5,6':
-                        FourWaybet = int(input('How much would you like to bet?\n'))
+                        RemainingBalance = currentbalance - Rowbet - columnbet - Colourbet - OddEvenbet - HighLowbet - Thirdbet - Singlebet - Doublebet - FourWaybet - SixWaybet
+                        FourWaybet = int(input(f'How much would you like to bet? You have {RemainingBalance} left to bet on.\n'))
                         FourWay = True
                         FourWay2 = True
                         print('Your bet has been placed.')
                         numberbettypecounter += 1
                     elif Fourbettype == '4,5,7,8':
-                        FourWaybet = int(input('How much would you like to bet?\n'))
+                        RemainingBalance = currentbalance - Rowbet - columnbet - Colourbet - OddEvenbet - HighLowbet - Thirdbet - Singlebet - Doublebet - FourWaybet - SixWaybet
+                        FourWaybet = int(input(f'How much would you like to bet? You have {RemainingBalance} left to bet on.\n'))
                         FourWay = True
                         FourWay3 = True
                         print('Your bet has been placed.')
                         numberbettypecounter += 1
                     elif Fourbettype == '5,6,8,9':
-                        FourWaybet = int(input('How much would you like to bet?\n'))
+                        RemainingBalance = currentbalance - Rowbet - columnbet - Colourbet - OddEvenbet - HighLowbet - Thirdbet - Singlebet - Doublebet - FourWaybet - SixWaybet
+                        FourWaybet = int(input(f'How much would you like to bet? You have {RemainingBalance} left to bet on.\n'))
                         FourWay = True
                         FourWay4 = True
                         print('Your bet has been placed.')
                         numberbettypecounter += 1
                     elif Fourbettype == '7,8,10,11':
-                        FourWaybet = int(input('How much would you like to bet?\n'))
+                        RemainingBalance = currentbalance - Rowbet - columnbet - Colourbet - OddEvenbet - HighLowbet - Thirdbet - Singlebet - Doublebet - FourWaybet - SixWaybet
+                        FourWaybet = int(input(f'How much would you like to bet? You have {RemainingBalance} left to bet on.\n'))
                         FourWay = True
                         FourWay5 = True
                         print('Your bet has been placed.')
                         numberbettypecounter += 1
                     elif Fourbettype == '8,9,11,12':
-                        FourWaybet = int(input('How much would you like to bet?\n'))
+                        RemainingBalance = currentbalance - Rowbet - columnbet - Colourbet - OddEvenbet - HighLowbet - Thirdbet - Singlebet - Doublebet - FourWaybet - SixWaybet
+                        FourWaybet = int(input(f'How much would you like to bet? You have {RemainingBalance} left to bet on.\n'))
                         FourWay = True
                         FourWay6 = True
                         print('Your bet has been placed.')
                         numberbettypecounter += 1
+                        RemainingBalance = currentbalance - Rowbet - columnbet - Colourbet - OddEvenbet - HighLowbet - Thirdbet - Singlebet - Doublebet - FourWaybet - SixWaybet
                     elif Fourbettype == '10,11,13,14':
-                        FourWaybet = int(input('How much would you like to bet?\n'))
+                        FourWaybet = int(input(f'How much would you like to bet? You have {RemainingBalance} left to bet on.\n'))
                         FourWay = True
                         FourWay7 = True
                         print('Your bet has been placed.')
                         numberbettypecounter += 1
                     elif Fourbettype == '11,12,14,15':
-                        FourWaybet = int(input('How much would you like to bet?\n'))
+                        RemainingBalance = currentbalance - Rowbet - columnbet - Colourbet - OddEvenbet - HighLowbet - Thirdbet - Singlebet - Doublebet - FourWaybet - SixWaybet
+                        FourWaybet = int(input(f'How much would you like to bet? You have {RemainingBalance} left to bet on.\n'))
                         FourWay = True
                         FourWay8 = True
                         print('Your bet has been placed.')
                         numberbettypecounter += 1
                     elif Fourbettype == '13,14,16,17':
-                        FourWaybet = int(input('How much would you like to bet?\n'))
+                        RemainingBalance = currentbalance - Rowbet - columnbet - Colourbet - OddEvenbet - HighLowbet - Thirdbet - Singlebet - Doublebet - FourWaybet - SixWaybet
+                        FourWaybet = int(input(f'How much would you like to bet? You have {RemainingBalance} left to bet on.\n'))
                         FourWay = True
                         FourWay9 = True
                         print('Your bet has been placed.')
                         numberbettypecounter += 1
                     elif Fourbettype == '14,15,17,18':
-                        FourWaybet = int(input('How much would you like to bet?\n'))
+                        RemainingBalance = currentbalance - Rowbet - columnbet - Colourbet - OddEvenbet - HighLowbet - Thirdbet - Singlebet - Doublebet - FourWaybet - SixWaybet
+                        FourWaybet = int(input(f'How much would you like to bet? You have {RemainingBalance} left to bet on.\n'))
                         FourWay = True
                         FourWay10 = True
                         print('Your bet has been placed.')
                         numberbettypecounter += 1
                     elif Fourbettype == '16,17,19,20':
-                        FourWaybet = int(input('How much would you like to bet?\n'))
+                        RemainingBalance = currentbalance - Rowbet - columnbet - Colourbet - OddEvenbet - HighLowbet - Thirdbet - Singlebet - Doublebet - FourWaybet - SixWaybet
+                        FourWaybet = int(input(f'How much would you like to bet? You have {RemainingBalance} left to bet on.\n'))
                         FourWay = True
                         FourWay11 = True
                         print('Your bet has been placed.')
                         numberbettypecounter += 1
                     elif Fourbettype == '17,18,20,21':
-                        FourWaybet = int(input('How much would you like to bet?\n'))
+                        RemainingBalance = currentbalance - Rowbet - columnbet - Colourbet - OddEvenbet - HighLowbet - Thirdbet - Singlebet - Doublebet - FourWaybet - SixWaybet
+                        FourWaybet = int(input(f'How much would you like to bet? You have {RemainingBalance} left to bet on.\n'))
                         FourWay = True
                         FourWay12 = True
                         print('Your bet has been placed.')
                         numberbettypecounter += 1
                     elif Fourbettype == '19,20,22,23':
-                        FourWaybet = int(input('How much would you like to bet?\n'))
+                        RemainingBalance = currentbalance - Rowbet - columnbet - Colourbet - OddEvenbet - HighLowbet - Thirdbet - Singlebet - Doublebet - FourWaybet - SixWaybet
+                        FourWaybet = int(input(f'How much would you like to bet? You have {RemainingBalance} left to bet on.\n'))
                         FourWay = True
                         FourWay13 = True
                         print('Your bet has been placed.')
                         numberbettypecounter += 1
                     elif Fourbettype == '20,21,23,24':
-                        FourWaybet = int(input('How much would you like to bet?\n'))
+                        RemainingBalance = currentbalance - Rowbet - columnbet - Colourbet - OddEvenbet - HighLowbet - Thirdbet - Singlebet - Doublebet - FourWaybet - SixWaybet
+                        FourWaybet = int(input(f'How much would you like to bet? You have {RemainingBalance} left to bet on.\n'))
                         FourWay = True
                         FourWay14 = True
                         print('Your bet has been placed.')
                         numberbettypecounter += 1
                     elif Fourbettype == '22,23,25,26':
-                        FourWaybet = int(input('How much would you like to bet?\n'))
+                        RemainingBalance = currentbalance - Rowbet - columnbet - Colourbet - OddEvenbet - HighLowbet - Thirdbet - Singlebet - Doublebet - FourWaybet - SixWaybet
+                        FourWaybet = int(input(f'How much would you like to bet? You have {RemainingBalance} left to bet on.\n'))
                         FourWay = True
                         FourWay15 = True
                         print('Your bet has been placed.')
                         numberbettypecounter += 1
                     elif Fourbettype == '23,24,26,27':
-                        FourWaybet = int(input('How much would you like to bet?\n'))
+                        RemainingBalance = currentbalance - Rowbet - columnbet - Colourbet - OddEvenbet - HighLowbet - Thirdbet - Singlebet - Doublebet - FourWaybet - SixWaybet
+                        FourWaybet = int(input(f'How much would you like to bet? You have {RemainingBalance} left to bet on.\n'))
                         FourWay = True
                         FourWay16 = True
                         print('Your bet has been placed.')
                         numberbettypecounter += 1
                     elif Fourbettype == '25,26,28,29':
-                        FourWaybet = int(input('How much would you like to bet?\n'))
+                        RemainingBalance = currentbalance - Rowbet - columnbet - Colourbet - OddEvenbet - HighLowbet - Thirdbet - Singlebet - Doublebet - FourWaybet - SixWaybet
+                        FourWaybet = int(input(f'How much would you like to bet? You have {RemainingBalance} left to bet on.\n'))
                         FourWay = True
                         FourWay17 = True
                         print('Your bet has been placed.')
                         numberbettypecounter += 1
                     elif Fourbettype == '26,27,29,30':
-                        FourWaybet = int(input('How much would you like to bet?\n'))
+                        RemainingBalance = currentbalance - Rowbet - columnbet - Colourbet - OddEvenbet - HighLowbet - Thirdbet - Singlebet - Doublebet - FourWaybet - SixWaybet
+                        FourWaybet = int(input(f'How much would you like to bet? You have {RemainingBalance} left to bet on.\n'))
                         FourWay = True
                         FourWay18 = True
                         print('Your bet has been placed.')
                         numberbettypecounter += 1
                     elif Fourbettype == '28,29,31,32':
-                        FourWaybet = int(input('How much would you like to bet?\n'))
+                        RemainingBalance = currentbalance - Rowbet - columnbet - Colourbet - OddEvenbet - HighLowbet - Thirdbet - Singlebet - Doublebet - FourWaybet - SixWaybet
+                        FourWaybet = int(input(f'How much would you like to bet? You have {RemainingBalance} left to bet on.\n'))
                         FourWay = True
                         FourWay19 = True
                         print('Your bet has been placed.')
                         numberbettypecounter += 1
                     elif Fourbettype == '29,30,32,33':
-                        FourWaybet = int(input('How much would you like to bet?\n'))
+                        RemainingBalance = currentbalance - Rowbet - columnbet - Colourbet - OddEvenbet - HighLowbet - Thirdbet - Singlebet - Doublebet - FourWaybet - SixWaybet
+                        FourWaybet = int(input(f'How much would you like to bet? You have {RemainingBalance} left to bet on.\n'))
                         FourWay = True
                         FourWay20 = True
                         print('Your bet has been placed.')
                         numberbettypecounter += 1
                     elif Fourbettype == '31,32,34,35':
-                        FourWaybet = int(input('How much would you like to bet?\n'))
+                        RemainingBalance = currentbalance - Rowbet - columnbet - Colourbet - OddEvenbet - HighLowbet - Thirdbet - Singlebet - Doublebet - FourWaybet - SixWaybet
+                        FourWaybet = int(input(f'How much would you like to bet? You have {RemainingBalance} left to bet on.\n'))
                         FourWay = True
                         FourWay21 = True
                         print('Your bet has been placed.')
                         numberbettypecounter += 1
                     elif Fourbettype == '32,33,35,36':
-                        FourWaybet = int(input('How much would you like to bet?\n'))
+                        RemainingBalance = currentbalance - Rowbet - columnbet - Colourbet - OddEvenbet - HighLowbet - Thirdbet - Singlebet - Doublebet - FourWaybet - SixWaybet
+                        FourWaybet = int(input(f'How much would you like to bet? You have {RemainingBalance} left to bet on.\n'))
                         FourWay = True
                         FourWay22 = True
                         print('Your bet has been placed.')
@@ -1254,67 +1408,78 @@ while p == True:
                     SixWaybet = 0
                     SixWaytype = input('What would you like to bet on? 1-6, 4-9, 7-12, 10-15, 13-18, 16-21, 19-24, 22-27, 25-30, 28-33, 31-36\n')
                     if SixWaytype == '1-6':
-                        SixWaybet = int(input('How much would you like to bet?\n'))
+                        RemainingBalance = currentbalance - Rowbet - columnbet - Colourbet - OddEvenbet - HighLowbet - Thirdbet - Singlebet - Doublebet - FourWaybet - SixWaybet
+                        SixWaybet = int(input(f'How much would you like to bet? You have {RemainingBalance} left to bet on.\n'))
                         SixWay = True
                         SixWay1 = True
                         print('Your bet has been placed.')
                         numberbettypecounter += 1
                     elif SixWaytype == '4-9':
-                        SixWaybet = int(input('How much would you like to bet?\n'))
+                        RemainingBalance = currentbalance - Rowbet - columnbet - Colourbet - OddEvenbet - HighLowbet - Thirdbet - Singlebet - Doublebet - FourWaybet - SixWaybet
+                        SixWaybet = int(input(f'How much would you like to bet? You have {RemainingBalance} left to bet on.\n'))
                         SixWay = True
                         SixWay2 = True
                         print('Your bet has been placed.')
                         numberbettypecounter += 1
                     elif SixWaytype == '7-12':
-                        SixWaybet = int(input('How much would you like to bet?\n'))
+                        RemainingBalance = currentbalance - Rowbet - columnbet - Colourbet - OddEvenbet - HighLowbet - Thirdbet - Singlebet - Doublebet - FourWaybet - SixWaybet
+                        SixWaybet = int(input(f'How much would you like to bet? You have {RemainingBalance} left to bet on.\n'))
                         SixWay = True
                         SixWay3 = True
                         print('Your bet has been placed.')
                         numberbettypecounter += 1
                     elif SixWaytype == '10-15':
-                        SixWaybet = int(input('How much would you like to bet?\n'))
+                        RemainingBalance = currentbalance - Rowbet - columnbet - Colourbet - OddEvenbet - HighLowbet - Thirdbet - Singlebet - Doublebet - FourWaybet - SixWaybet
+                        SixWaybet = int(input(f'How much would you like to bet? You have {RemainingBalance} left to bet on.\n'))
                         SixWay = True
                         SixWay4 = True
                         print('Your bet has been placed.')
                         numberbettypecounter += 1
                     elif SixWaytype == '13-18':
-                        SixWaybet = int(input('How much would you like to bet?\n'))
+                        RemainingBalance = currentbalance - Rowbet - columnbet - Colourbet - OddEvenbet - HighLowbet - Thirdbet - Singlebet - Doublebet - FourWaybet - SixWaybet
+                        SixWaybet = int(input(f'How much would you like to bet? You have {RemainingBalance} left to bet on.\n'))
                         SixWay = True
                         SixWay5 = True
                         print('Your bet has been placed.')
                         numberbettypecounter += 1
                     elif SixWaytype == '16-21':
-                        SixWaybet = int(input('How much would you like to bet?\n'))
+                        RemainingBalance = currentbalance - Rowbet - columnbet - Colourbet - OddEvenbet - HighLowbet - Thirdbet - Singlebet - Doublebet - FourWaybet - SixWaybet
+                        SixWaybet = int(input(f'How much would you like to bet? You have {RemainingBalance} left to bet on.\n'))
                         SixWay = True
                         SixWay6 = True
                         print('Your bet has been placed.')
                         numberbettypecounter += 1
                     elif SixWaytype == '19-24':
-                        SixWaybet = int(input('How much would you like to bet?\n'))
+                        RemainingBalance = currentbalance - Rowbet - columnbet - Colourbet - OddEvenbet - HighLowbet - Thirdbet - Singlebet - Doublebet - FourWaybet - SixWaybet
+                        SixWaybet = int(input(f'How much would you like to bet? You have {RemainingBalance} left to bet on.\n'))
                         SixWay = True
                         SixWay7 = True
                         print('Your bet has been placed.')
                         numberbettypecounter += 1
                     elif SixWaytype == '22-27':
-                        SixWaybet = int(input('How much would you like to bet?\n'))
+                        RemainingBalance = currentbalance - Rowbet - columnbet - Colourbet - OddEvenbet - HighLowbet - Thirdbet - Singlebet - Doublebet - FourWaybet - SixWaybet
+                        SixWaybet = int(input(f'How much would you like to bet? You have {RemainingBalance} left to bet on.\n'))
                         SixWay = True
                         SixWay8 = True
                         print('Your bet has been placed.')
                         numberbettypecounter += 1
                     elif SixWaytype == '25-30':
-                        SixWaybet = int(input('How much would you like to bet?\n'))
+                        RemainingBalance = currentbalance - Rowbet - columnbet - Colourbet - OddEvenbet - HighLowbet - Thirdbet - Singlebet - Doublebet - FourWaybet - SixWaybet
+                        SixWaybet = int(input(f'How much would you like to bet? You have {RemainingBalance} left to bet on.\n'))
                         SixWay = True
                         SixWay9 = True
                         print('Your bet has been placed.')
                         numberbettypecounter += 1
                     elif SixWaytype == '28-33':
-                        SixWaybet = int(input('How much would you like to bet?\n'))
+                        RemainingBalance = currentbalance - Rowbet - columnbet - Colourbet - OddEvenbet - HighLowbet - Thirdbet - Singlebet - Doublebet - FourWaybet - SixWaybet
+                        SixWaybet = int(input(f'How much would you like to bet? You have {RemainingBalance} left to bet on.\n'))
                         SixWay = True
                         SixWay10 = True
                         print('Your bet has been placed.')
                         numberbettypecounter += 1
                     elif SixWaytype == '31-36':
-                        SixWaybet = int(input('How much would you like to bet?\n'))
+                        RemainingBalance = currentbalance - Rowbet - columnbet - Colourbet - OddEvenbet - HighLowbet - Thirdbet - Singlebet - Doublebet - FourWaybet - SixWaybet
+                        SixWaybet = int(input(f'How much would you like to bet? You have {RemainingBalance} left to bet on.\n'))
                         SixWay = True
                         SixWay11 = True
                         print('Your bet has been placed.')
