@@ -2122,3 +2122,20 @@ while p == True:
             else:
                 print('You did not win your bet on rows.')
                 currentbalance -= Rowbet
+
+        if Columns == True:
+            if column1 == True and column1Checker == True:
+                columnbet = columnbet * 2
+                print(f'You won your bet on columns, earning you {columnbet}!')
+                currentbalance += columnbet
+            elif column2 == True and column2Checker == True:
+                columnbet = columnbet * 2
+                print(f'You won your bet on columns, earning you {columnbet}!')
+                currentbalance += columnbet
+            elif column3 == True and column3Checker == True:
+                columnbet = columnbet * 2
+                print(f'You won your bet on columns, earning you {columnbet}!')
+                currentbalance += columnbet
+            else:
+                print('You did not win your bet on columns')
+                currentbalance -= columnbet
