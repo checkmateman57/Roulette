@@ -1,14 +1,14 @@
-def lb():
+def callbalance():
     try:
-        with open ('rbalance.txt', 'r') as file:
+        with open('rbalance.txt', 'r') as file:
             return float(file.read())
     except FileNotFoundError:
         return 500
-def sb(rbalance):
+def savebalance(rbalance):
     with open('rbalance.txt', 'w') as file:
         file.write(str(rbalance))
 spin = 0
-currentbalance = lb()
+currentbalance = callbalance()
 action = 1
 print('Welcome to Roulette! Please answer yes or no to questions of that nature, and please answer multiple choice questions exactly\n')
 rules = input('Would you like to know the rules?\n')
@@ -25,7 +25,8 @@ p = True
 bettypex = 0
 while p == True:
     if action == 1:
-        play = input('Would you like to play?\n')
+        play = input('Would you like to play?\n'
+                     f'Your current balance is {currentbalance}\n')
         if play.lower() == 'yes':
             action = 2
         elif play.lower() == 'no':
@@ -2587,3 +2588,159 @@ while p == True:
             else:
                 print('You lost your 2 Way bet.')
                 currentbalance -= Doublebet
+                
+        if FourWay == True:
+            if FourWay1 == True and FourWay1Checker == True:
+                FourWaybet = FourWaybet * 8
+                print(f'You won your 4 way bet, winning  you {FourWaybet}!')
+                currentbalance += FourWaybet
+            elif FourWay2 == True and FourWay2Checker == True:
+                FourWaybet = FourWaybet * 8
+                print(f'You won your 4 way bet, winning  you {FourWaybet}!')
+                currentbalance += FourWaybet
+            elif FourWay3 == True and FourWay3Checker == True:
+                FourWaybet = FourWaybet * 8
+                print(f'You won your 4 way bet, winning  you {FourWaybet}!')
+                currentbalance += FourWaybet
+            elif FourWay4 == True and FourWay4Checker == True:
+                FourWaybet = FourWaybet * 8
+                print(f'You won your 4 way bet, winning  you {FourWaybet}!')
+                currentbalance += FourWaybet
+            elif FourWay5 == True and FourWay5Checker == True:
+                FourWaybet = FourWaybet * 8
+                print(f'You won your 4 way bet, winning  you {FourWaybet}!')
+                currentbalance += FourWaybet
+            elif FourWay6 == True and FourWay6Checker == True:
+                FourWaybet = FourWaybet * 8
+                print(f'You won your 4 way bet, winning  you {FourWaybet}!')
+                currentbalance += FourWaybet
+            elif FourWay7 == True and FourWay7Checker == True:
+                FourWaybet = FourWaybet * 8
+                print(f'You won your 4 way bet, winning  you {FourWaybet}!')
+                currentbalance += FourWaybet
+            elif FourWay8 == True and FourWay8Checker == True:
+                FourWaybet = FourWaybet * 8
+                print(f'You won your 4 way bet, winning  you {FourWaybet}!')
+                currentbalance += FourWaybet
+            elif FourWay9 == True and FourWay9Checker == True:
+                FourWaybet = FourWaybet * 8
+                print(f'You won your 4 way bet, winning  you {FourWaybet}!')
+                currentbalance += FourWaybet
+            elif FourWay10 == True and FourWay10Checker == True:
+                FourWaybet = FourWaybet * 8
+                print(f'You won your 4 way bet, winning  you {FourWaybet}!')
+                currentbalance += FourWaybet
+            elif FourWay11 == True and FourWay11Checker == True:
+                FourWaybet = FourWaybet * 8
+                print(f'You won your 4 way bet, winning  you {FourWaybet}!')
+                currentbalance += FourWaybet
+            elif FourWay12 == True and FourWay12Checker == True:
+                FourWaybet = FourWaybet * 8
+                print(f'You won your 4 way bet, winning  you {FourWaybet}!')
+                currentbalance += FourWaybet
+            elif FourWay13 == True and FourWay13Checker == True:
+                FourWaybet = FourWaybet * 8
+                print(f'You won your 4 way bet, winning  you {FourWaybet}!')
+                currentbalance += FourWaybet
+            elif FourWay14 == True and FourWay14Checker == True:
+                FourWaybet = FourWaybet * 8
+                print(f'You won your 4 way bet, winning  you {FourWaybet}!')
+                currentbalance += FourWaybet
+            elif FourWay15 == True and FourWay15Checker == True:
+                FourWaybet = FourWaybet * 8
+                print(f'You won your 4 way bet, winning  you {FourWaybet}!')
+                currentbalance += FourWaybet
+            elif FourWay16 == True and FourWay16Checker == True:
+                FourWaybet = FourWaybet * 8
+                print(f'You won your 4 way bet, winning  you {FourWaybet}!')
+                currentbalance += FourWaybet
+            elif FourWay17 == True and FourWay17Checker == True:
+                FourWaybet = FourWaybet * 8
+                print(f'You won your 4 way bet, winning  you {FourWaybet}!')
+                currentbalance += FourWaybet
+            elif FourWay18 == True and FourWay18Checker == True:
+                FourWaybet = FourWaybet * 8
+                print(f'You won your 4 way bet, winning  you {FourWaybet}!')
+                currentbalance += FourWaybet
+            elif FourWay19 == True and FourWay19Checker == True:
+                FourWaybet = FourWaybet * 8
+                print(f'You won your 4 way bet, winning  you {FourWaybet}!')
+                currentbalance += FourWaybet
+            elif FourWay20 == True and FourWay20Checker == True:
+                FourWaybet = FourWaybet * 8
+                print(f'You won your 4 way bet, winning  you {FourWaybet}!')
+                currentbalance += FourWaybet
+            elif FourWay21 == True and FourWay21Checker == True:
+                FourWaybet = FourWaybet * 8
+                print(f'You won your 4 way bet, winning  you {FourWaybet}!')
+                currentbalance += FourWaybet
+            elif FourWay22 == True and FourWay22Checker == True:
+                FourWaybet = FourWaybet * 8
+                print(f'You won your 4 way bet, winning  you {FourWaybet}!')
+                currentbalance += FourWaybet
+            else:
+                print('You lost your 4 Way bet.')
+                currentbalance -= FourWaybet
+
+        if SixWay == True:
+            if SixWay1 == True and SixWay1Checker == True:
+                SixWaybet = SixWaybet * 5
+                print(f'You won your 6 way bet, winning you {SixWaybet}!')
+                currentbalance += SixWaybet
+            elif SixWay2 == True and SixWay2Checker == True:
+                SixWaybet = SixWaybet * 5
+                print(f'You won your 6 way bet, winning you {SixWaybet}!')
+                currentbalance += SixWaybet
+            elif SixWay3 == True and SixWay3Checker == True:
+                SixWaybet = SixWaybet * 5
+                print(f'You won your 6 way bet, winning you {SixWaybet}!')
+                currentbalance += SixWaybet
+            elif SixWay4 == True and SixWay4Checker == True:
+                SixWaybet = SixWaybet * 5
+                print(f'You won your 6 way bet, winning you {SixWaybet}!')
+                currentbalance += SixWaybet
+            elif SixWay5 == True and SixWay5Checker == True:
+                SixWaybet = SixWaybet * 5
+                print(f'You won your 6 way bet, winning you {SixWaybet}!')
+                currentbalance += SixWaybet
+            elif SixWay6 == True and SixWay6Checker == True:
+                SixWaybet = SixWaybet * 5
+                print(f'You won your 6 way bet, winning you {SixWaybet}!')
+                currentbalance += SixWaybet
+            elif SixWay7 == True and SixWay7Checker == True:
+                SixWaybet = SixWaybet * 5
+                print(f'You won your 6 way bet, winning you {SixWaybet}!')
+                currentbalance += SixWaybet
+            elif SixWay8 == True and SixWay8Checker == True:
+                SixWaybet = SixWaybet * 5
+                print(f'You won your 6 way bet, winning you {SixWaybet}!')
+                currentbalance += SixWaybet
+            elif SixWay9 == True and SixWay9Checker == True:
+                SixWaybet = SixWaybet * 5
+                print(f'You won your 6 way bet, winning you {SixWaybet}!')
+                currentbalance += SixWaybet
+            elif SixWay10 == True and SixWay10Checker == True:
+                SixWaybet = SixWaybet * 5
+                print(f'You won your 6 way bet, winning you {SixWaybet}!')
+                currentbalance += SixWaybet
+            elif SixWay11 == True and SixWay11Checker == True:
+                SixWaybet = SixWaybet * 5
+                print(f'You won your 6 way bet, winning you {SixWaybet}!')
+                currentbalance += SixWaybet
+            else:
+                print('You lost your 6 way bet.')
+                currentbalance -= SixWaybet
+
+        action = 9
+
+    if action == 9:
+        if currentbalance == 0:
+            print('You went bankrupt, so your balance resets to 500')
+            currentbalance = 500
+        else:
+            print(f'Your new balance is {currentbalance}.')
+        action = 10
+
+    if action == 10:
+        savebalance(currentbalance)
+        action = 1
