@@ -411,7 +411,7 @@ while p == True:
             else:
                 print('Your answer must be one of the following: Rows, Columns, Thirds, Odd/Even, Red/Black, or High/Low')
 
-        if sectionalbettypecounter == sectionalbettype:
+        if sectionalbettypecounter == sectionalbettype and action == 41:
             if allbettypes == True:
                 action = 5
             else:
