@@ -2994,4 +2994,7 @@ while p == True:
     if action == 10:
         savebalance(currentbalance)
         action = 1
-if p == False:
+
+while p == False:
+    print('Thank you for playing. Hope you play again soon.')
+    break
