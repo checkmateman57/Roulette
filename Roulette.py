@@ -209,7 +209,14 @@ while p == True:
                         sectionalbettypecounter += 1
                     else:
                         print('Your answer must be from the options of 0-2, 1-3, 4-6, 7-9, 10-12, 13-15, 16-18, 19-21, 22-24, 25-27, 28-30, 31-33, or 34-36 ')
-
+                    if Rowbet <= 0 or Rowbet > RemainingBalance:
+                        print("Your bet is invalid. You can't bet 0 or less, and you can't be more than remaining balance")
+                        Rowbet = 0
+                        Rows = False
+                        sectionalbettypecounter -= 1
+                    elif Rowbet == RemainingBalance:
+                        print("You've gone all in, you can no longer make any bets")
+                        action = 6
 
             elif sectionalbetquestion.lower() == 'columns':
                 if Columns == True:
@@ -245,6 +252,14 @@ while p == True:
                         sectionalbettypecounter += 1
                     else:
                         print('Your answer must be a 1,2, or 3.')
+                    if columnbet <= 0 or columnbet > RemainingBalance:
+                        print("Your bet is invalid. You can't bet 0 or less, and you can't be more than remaining balance")
+                        columnbet = 0
+                        Columns = False
+                        sectionalbettypecounter -= 1
+                    elif columnbet == RemainingBalance:
+                        print("You've gone all in, you can no longer make any bets")
+                        action = 6
 
 
             elif sectionalbetquestion.lower() == 'thirds':
@@ -279,6 +294,14 @@ while p == True:
                         sectionalbettypecounter += 1
                     else:
                         print('Your answer must be either 1-12, 13-24, or 25-36.')
+                    if Thirdbet <= 0 or Thirdbet > RemainingBalance:
+                        print("Your bet is invalid. You can't bet 0 or less, and you can't be more than remaining balance")
+                        Thirdbet = 0
+                        Thirds = False
+                        sectionalbettypecounter -= 1
+                    elif Thirdbet == RemainingBalance:
+                        print("You've gone all in, you can no longer make any bets")
+                        action = 6
 
 
             elif sectionalbetquestion.lower() == 'odd/even':
@@ -305,6 +328,14 @@ while p == True:
                         sectionalbettypecounter += 1
                     else:
                         print('Your answer must be odd or even.')
+                    if OddEvenbet <= 0 or OddEvenbet > RemainingBalance:
+                        print("Your bet is invalid. You can't bet 0 or less, and you can't be more than remaining balance")
+                        OddEvenbet = 0
+                        OddEven = False
+                        sectionalbettypecounter -= 1
+                    elif OddEvenbet == RemainingBalance:
+                        print("You've gone all in, you can no longer make any bets")
+                        action = 6
 
 
             elif sectionalbetquestion.lower() == 'red/black':
@@ -333,6 +364,14 @@ while p == True:
                         sectionalbettypecounter += 1
                     else:
                         print('Your answer must be red or black.')
+                    if Colourbet <= 0 or Colourbet > RemainingBalance:
+                        print("Your bet is invalid. You can't bet 0 or less, and you can't be more than remaining balance")
+                        Colourbet = 0
+                        Colours = False
+                        sectionalbettypecounter -= 1
+                    elif Colourbet == RemainingBalance:
+                        print("You've gone all in, you can no longer make any bets")
+                        action = 6
 
 
             elif sectionalbetquestion.lower() == 'high/low':
@@ -359,6 +398,14 @@ while p == True:
                         print('Your bet has been placed')
                     else:
                         print('Your answer must be low or high.')
+                    if HighLowbet <= 0 or HighLowbet > RemainingBalance:
+                        print("Your bet is invalid. You can't bet 0 or less, and you can't be more than remaining balance")
+                        HighLowbet = 0
+                        HighLow = False
+                        sectionalbettypecounter -= 1
+                    elif HighLowbet == RemainingBalance:
+                        print("You've gone all in, you can no longer make any bets")
+                        action = 6
 
 
             else:
@@ -690,6 +737,14 @@ while p == True:
                         numberbettypecounter += 1
                     else:
                         print('Your answer must be a number from 0-36')
+                    if Singlebet <= 0 or Singlebet > RemainingBalance:
+                        print("Your bet is invalid. You can't bet 0 or less, and you can't be more than remaining balance")
+                        Singlebet = 0
+                        Single = False
+                        numberbettypecounter -= 1
+                    elif Singlebet == RemainingBalance:
+                        print("You've gone all in, you can no longer make any bets")
+                        action = 6
 
 
             elif numberbetquestion.lower() == '2 way':
@@ -1018,6 +1073,14 @@ while p == True:
                             print('Your answer must be from the following:')
                             print('0&1, 0&2, 0&3, 1&4, 2&5, 3&6, 4&7, 5&8, 6&9, 7&10, 8&11, 9&12, 10&13, 11&14, 12&15, 13&16, 14&17, 15&18, 16&19, 17&20, 18&21')
                             print('19&22, 20&23, 21&24, 22&25, 23&26, 24&27, 25&28, 26&29, 27&30, 28&31, 29&32, 30&33, 31&34, 32&35, 33&36')
+                        if Doublebet <= 0 or Doublebet > RemainingBalance:
+                            print("Your bet is invalid. You can't bet 0 or less, and you can't be more than remaining balance")
+                            Doublebet = 0
+                            Double = False
+                            numberbettypecounter -= 1
+                        elif Doublebet == RemainingBalance:
+                            print("You've gone all in, you can no longer make any bets")
+                            action = 6
 
                     elif Doubletype.lower() == 'horizontal':
                         DoubleHorizontal = input('On which 2 way would you like to bet on?\n'
@@ -1195,7 +1258,14 @@ while p == True:
                             print('Your answer must be from:')
                             print('1&2, 2&3, 4&5, 5&6, 7&8, 8&9, 10&11, 11&12, 13&14, 14&15, 16&17, 17&18, 19&20, 20&21')
                             print('22&23, 23&24, 25&26, 26&27, 28&29, 29&30, 31&32, 32&33, 34&35, 35&36')
-
+                        if Doublebet <= 0 or Doublebet > RemainingBalance:
+                            print("Your bet is invalid. You can't bet 0 or less, and you can't be more than remaining balance")
+                            Doublebet = 0
+                            Double = False
+                            numberbettypecounter -= 1
+                        elif Doublebet == RemainingBalance:
+                            print("You've gone all in, you can no longer make any bets")
+                            action = 6
                     else:
                         print('Your answer must be vertical or horizontal')
 
@@ -1388,6 +1458,14 @@ while p == True:
                         print('Your answer must be from:')
                         print('1,2,4,5    2,3,5,6    4,5,7,8    5,6,8,9    7,8,10,11    8,9,11,12    10,11,13,14    11,12,14,15    13,14,16,17    14,15,17,18   16,17,19,20    17,18,20,21')
                         print('19,20,22,23    20,21,23,24    22,23,25,26    23,24,26,27    25,26,28,29    26,27,29,30    28,29,31,32    29,30,32,33    31,32,34,35    32,33,35,36')
+                    if FourWaybet <= 0 or FourWaybet > RemainingBalance:
+                        print("Your bet is invalid. You can't bet 0 or less, and you can't be more than remaining balance")
+                        FourWaybet = 0
+                        FourWay = False
+                        numberbettypecounter -= 1
+                    elif FourWaybet == RemainingBalance:
+                        print("You've gone all in, you can no longer make any bets")
+                        action = 6
 
 
             elif numberbetquestion.lower() == '6 way':
@@ -1486,7 +1564,14 @@ while p == True:
                         numberbettypecounter += 1
                     else:
                         print('Your answer must be from: 1-6, 4-9, 7-12, 10-15, 13-18, 16-21, 19-24, 22-27, 25-30, 28-33, 31-36')
-
+                    if SixWaybet <= 0 or SixWaybet > RemainingBalance:
+                        print("Your bet is invalid. You can't bet 0 or less, and you can't be more than remaining balance")
+                        SixWaybet = 0
+                        SixWay = False
+                        numberbettypecounter -= 1
+                    elif SixWaybet == RemainingBalance:
+                        print("You've gone all in, you can no longer make any bets")
+                        action = 6
 
             else:
                 print('Your answer must be Single, 2 way, 4 way, or 6 way')
